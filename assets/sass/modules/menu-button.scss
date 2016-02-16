@@ -1,0 +1,40 @@
+.ac-navanchor-menu {
+  background: #f00;
+  width: 2em;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  text-indent: -999px;
+  overflow: hidden;
+}
+
+.ac-navanchor-menu:hover {
+  background: none;
+}
+
+.ac-navanchor-menu:before {
+  font-family: "icomoon";
+  content: "\e000";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  text-indent: 0;
+  text-shadow: none;
+}
+
+.ac-navanchor-top {
+  display: block;
+}
+
+@media all and (min-width: 600px) {
+  .ac-navanchor-top,
+  .ac-navanchor-menu {
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+  }
+}

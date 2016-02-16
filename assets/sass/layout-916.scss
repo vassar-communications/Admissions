@@ -1,0 +1,41 @@
+@media all and (min-width: 600px) {
+  .l-main {
+    margin-left: 208px;
+    margin-left: 13em;
+    /*		margin-left: 13em;
+    */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+  }
+
+  body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 208px;
+    left: 13em;
+    /*		left: 13em;
+    */
+    bottom: 0;
+    height: 100%;
+    width: 20px;
+    background: url("../images/sideshadow.png") repeat-y;
+    z-index: 999;
+  }
+
+  .l-footer {
+    margin-left: 240px;
+    margin-left: 13em;
+    /*		margin-left: 15em;
+    */
+  }
+
+  .l-footer {
+    display: block;
+    clear: both;
+  }
+}

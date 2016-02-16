@@ -1,0 +1,54 @@
+
+.tourContainer {
+	max-width: 1100px;
+	overflow: hidden;
+}
+.tourItem__img {
+	border: 1px solid #ccc;
+	margin-bottom: 1em;
+}
+.tourItem {
+	box-sizing: border-box;
+}
+	.tourItem:hover {
+		.tourItem__img {
+			border-color: #f00;
+		}	
+		.tourItem__desc p {
+			color: #f00;
+		}
+	}
+.tourItem__desc {
+	margin-bottom: 1em;
+}
+.tourItem__imageCaption {
+	float: right;
+	font-size: .85em;
+}
+.tourItem__desc p {
+	line-height: 116%;
+	font-weight: 500;
+	font-size: 1em;
+}
+@media all and (min-width: 600px) {
+	.tourItem {
+/*		width: 49%;
+		float: left; */
+/*		margin-bottom: 2em; */
+		clear: both;
+	}
+	.tourItem:first-child {
+		padding-right: 2%;
+	}
+	.tourItem__desc {
+/*		-webkit-columns: 2;
+		-moz-columns: 2;
+		columns: 2;
+		-webkit-column-gap: 20px;
+		-moz-column-gap: 20px;
+		column-gap: 20px; */
+		
+	}
+}
+
+

@@ -1,0 +1,594 @@
+/* VISIT --------------------------- */
+/* Visits */
+/* Vassar in Your Area */
+.visit.area .introsec-container {
+  padding-bottom: 0;
+}
+
+.visit.area td:nth-child(1) {
+  width: 14em;
+}
+
+.visit.area td:nth-child(2) {
+  width: 14em;
+}
+
+.visit.area td:nth-child(3) {
+  width: 4em;
+}
+
+.visit.area .introsec-container {
+  overflow: visible;
+}
+
+/* Directions */
+/* Dining */
+.visit.dining .introsec-container {
+  padding-bottom: 0;
+}
+
+/* VISIT --------------------------------------- */
+/* Basic colors */
+.visit a {
+  color: #1876d9;
+}
+
+.visit a:hover {
+  color: #d94518;
+}
+
+.visit tr:nth-child(2n+1) {
+  background: #E1F3F5;
+}
+
+/* Masthead */
+
+.visit .u-masthead {
+	background: #2a80db;
+}
+@media all and (min-width: 600px) {
+	.visit .u-masthead {
+		background: none;
+	}
+	.visit .u-masthead > a,
+	.visit .u-masthead > i {
+		background: #2a80db;
+	}
+	.visit .u-masthead > a:hover,
+	.visit .u-masthead > i:hover {
+		background: #c7430a;
+	}
+}
+.visit .u-masthead {
+	border-bottom: 4px solid #2a80db;
+}
+
+.visit .u-masthead a {
+  color: white;
+}
+.visit .u-masthead a:before {
+  border-color: #2a80db;
+}
+.visit .u-masthead a i {
+  border-bottom: 1px dashed white;
+}
+
+/* Search */
+.visit .m-search-container {
+  border-color: #1876d9;
+}
+
+.u-navsite ul ul ul {
+  border-color: #C5E4E8;
+}
+
+/* Intro */
+.visit.frontpage .introsec-container {
+  padding-bottom: 0;
+}
+
+.visit.frontpage .introsec-container .sec-content {
+  padding: 0 0 2em 1%;
+  padding-bottom: 2em;
+  position: relative;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  overflow: visible;
+}
+
+/* Section: Fall Open Houses */
+.visit.frontpage .visit-fallopenhouses {
+  background: #d24800;
+  /*	padding-top: 3%; */
+}
+
+.visit.frontpage .visit-fallopenhouses h3 {
+  color: #eba371;
+}
+
+.visit.frontpage .visit-fallopenhouses .l-twocol-column:first-of-type {
+  margin: 0;
+}
+
+.visit.frontpage .visit-fallopenhouses h3 a {
+  color: #FFBF00;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.visit.frontpage .visit-fallopenhouses p {
+  color: #fff;
+}
+
+.visit.frontpage .visit-fallopenhouses a {
+  color: #FFBF00;
+  border: none;
+}
+
+.visit.frontpage .visit-fallopenhouses a:hover {
+  color: yellow;
+}
+
+/* Section: Visit Campus */
+.visit .visit-campusvisit {
+  background: url("../images/visit-classvisit.jpg") top right no-repeat;
+  padding: 2%;
+}
+
+.visit .visit-campusvisit .sec-content {
+  overflow: visible;
+  padding: 0;
+}
+
+.visit .visit-campusvisit .l-twocol-column:first-child {
+  padding: 2em 4em;
+  background: #fff;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  padding: 4%;
+}
+
+.visit.frontpage .l-footer .vcard,
+.visit.area .l-footer .vcard,
+.visit.visits .l-footer .vcard,
+.visit.directions .l-footer .vcard {
+  border-color: transparent;
+}
+
+/* Section: Interviews */
+.visit .visit-interviews {
+  background: #E3F3FA;
+  border-top: 1px dashed #badae8;
+  border-bottom: 1px dashed #badae8;
+}
+
+/* Visit > Tour */
+.visit.tour .introsec-container {
+  overflow: visible;
+}
+
+/* Visit > Directions */
+.visit.directions .introsec-container {
+  padding-bottom: 1em;
+  border: none;
+}
+
+.visit.directions .subsec-container {
+  padding-bottom: 2%;
+}
+
+.visit.directions .jumplinks.subsec-container {
+  border: none;
+}
+
+.visit.directions .jumplinks.subsec-container .sec-content {
+  border: none;
+}
+
+.visit.directions .directions-by-auto {
+  background: #fa2;
+}
+
+.visit.directions .directions-by-auto .sec-content {
+  position: relative;
+}
+
+.visit.directions .directions-by-auto h3 {
+  background: url("../images/visit-directions-car.png") no-repeat;
+  line-height: 100%;
+}
+
+.visit.directions .directions-by-train h3 {
+  background: url("../images/visit-directions-train.png") no-repeat;
+}
+
+.visit.directions .directions-by-bus h3 {
+  background: url("../images/visit-directions-bus.png") no-repeat;
+}
+
+.visit.directions .directions-by-air h3 {
+  background: url("../images/visit-directions-air.png") no-repeat;
+}
+
+.visit.directions .visit-directions {
+  border-top: 1px solid white;
+}
+
+.visit.directions .visit-directions .info-chunk {
+  background: #fff;
+  border: none;
+}
+
+.visit.directions .visit-directions p {
+  font-weight: 500;
+}
+
+.visit.directions .visit-directions h3 {
+  color: #fff;
+  font-size: 2.4em;
+  opacity: .7;
+  background-size: 1.2em;
+  padding-left: 1.4em;
+}
+
+.visit.directions .directions-by-train {
+  background: #1fc0e0;
+}
+
+.visit.directions .directions-by-train .sec-content {
+  position: relative;
+}
+
+.visit.directions .directions-by-bus {
+  background: #7ab023;
+}
+
+.visit.directions .directions-by-bus .sec-content {
+  position: relative;
+}
+
+.visit.directions .directions-by-air {
+  background: #a2e7f5;
+}
+
+.visit.directions .directions-by-air h3 {
+  color: rgba(0, 100, 200, 0.4);
+  opacity: 1;
+}
+
+.visit.directions .directions-by-air .sec-content {
+  position: relative;
+}
+
+/* Visit > Dining and Visit > Accommodations */
+/* Masthead */
+.visit.dining .u-masthead a,
+.visit.accommodations .u-masthead a {
+  text-shadow: none;
+}
+
+/* Intro */
+.visit.accommodations .introsec-container .sec-content,
+.visit.accommodations .introsec-container .m-note,
+.visit.dining .introsec-container .sec-content,
+.visit.dining .introsec-container .m-note {
+  margin-bottom: 0;
+}
+
+/* Visit > Dining */
+.visit.dining {
+  background: url("../images/visit-dining-cloth.jpg");
+  text-shadow: 0 1px 1px white, 0 1px 1px white, 0 1px 1px white;
+}
+
+/* Masthead */
+
+.visit.dining .u-masthead {
+	background: rgba(240, 0, 0, 0.6);
+}
+
+@media all and (min-width: 600px) {
+	.visit.dining .u-masthead {
+		background: none;
+	}
+	.visit.dining .u-masthead > a,
+	.visit.dining .u-masthead > i {
+		background: rgba(0, 140, 140, 0.3);
+		color: white;
+	}
+	.visit.dining .u-masthead > a:hover,
+	.visit.dining .u-masthead > i:hover {
+		background: rgba(240, 0, 0, 0.8);
+	}
+}
+.visit.dining .u-masthead {
+	border-bottom: 4px solid rgba(240, 0, 0, 0.3);
+}
+
+.visit.dining .u-masthead a:before {
+  border-color: rgba(240, 0, 0, 0.3);
+}
+
+.visit.dining .u-masthead a i {
+  border-bottom: 1px dashed white;
+}
+
+/*
+.visit.dining .u-masthead:hover a:before {
+  border-color: rgba(240, 0, 0, 0.6);
+}
+*/
+
+/* Search */
+.visit.dining .m-search-container {
+  border-color: #ec6762;
+}
+
+/* Visit > Accommodations */
+.visit.accommodations {
+  background: url("../images/visit-dining-cloth.jpg");
+}
+
+.visit.accommodations .subsec-container .sec-content {
+  padding-bottom: 0;
+  border-bottom: 3px double rgba(0, 0, 0, 0.1);
+}
+
+.visit.accommodations .subsec-container:last-child .sec-content {
+  border: none;
+}
+
+/* Masthead */
+
+.visit.accommodations .u-masthead {
+	background: #98bfd9;
+}
+@media all and (min-width: 600px) {
+	.visit.accommodations .u-masthead {
+		background: none;
+	}
+	.visit.accommodations .u-masthead > a,
+	.visit.accommodations .u-masthead > i {
+		background: #98bfd9;
+		color: #fff;
+	}
+	.visit.accommodations .u-masthead > a:hover,
+	.visit.accommodations .u-masthead > i:hover {
+		background: #86a5ba;
+	}
+}
+.visit.accommodations .u-masthead {
+	border-bottom: 4px solid #98bfd9;
+}
+.visit.accommodations .u-masthead a:before {
+  border-color: #98bfd9;
+}
+
+.visit.dining h4 a,
+.visit.accommodations h4 a {
+  border: none;
+}
+
+/* Nav */
+@media all and (min-width: 600px) {
+  .visit .u-navsite-level-1 > .u-navsite-open {
+    background: #E3F7FA;
+  }
+
+  /* Navigation */
+  .visit .u-navsite .u-navsite-level-2 > li.u-navsite-open > a,
+  .visit .u-navsite .u-navsite-level-2 > li.u-navsite-current > a,
+  .visit .u-navsite li:hover {
+    background: #1876D9;
+    color: #fff;
+  }
+
+  .visit .u-navsite-level-2 > li.u-navsite-open:hover {
+    background: #EBF9FA;
+  }
+
+  .visit .u-navsite-level-1 > li.u-navsite-open:hover > a {
+    color: #000;
+  }
+
+  .visit .u-navsite-level-1 > li.u-navsite-open > a:hover {
+    background: #1876D9;
+    color: #fff;
+  }
+
+  .visit .u-navsite li:hover > a {
+    color: #fff;
+  }
+
+  .visit .u-navsite-level-1 .u-navsite-open a {
+    color: #000;
+  }
+
+  .visit .u-navsite .u-navsite-level-1 > li.u-navsite-open {
+    background: #EBF9FA;
+    border-color: #1876D9;
+  }
+
+  .visit .u-navsite .u-navsite-level-2 > li.u-navsite-open > ul {
+    background: #fff;
+  }
+
+  .visit .u-navsite-level-1 li:hover .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #1876d9;
+  }
+
+  .visit .u-navsite-level-1 li.u-navsite-open:hover .u-navsite-level-2 {
+    background: none;
+    border: none;
+  }
+
+  .visit .shrink .u-navsite-level-1 li:hover .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #1876d9;
+  }
+
+  .visit .shrink .u-navsite-level-1 li.u-navsite-open:hover .u-navsite-level-2 {
+    bottom: -10em;
+  }
+
+  .visit .u-navsite .u-navsite-level-3 {
+    border-bottom: 1px solid #bfe8eb;
+  }
+
+  .visit .u-navsite .u-navsite-level-3 > li {
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .visit .u-navsite .u-navsite-level-3 > li:last-child {
+    border-bottom: none;
+  }
+
+  .visit .u-navsite .u-navsite-level-3 > li.u-navsite-current > a {
+    background: #eeeeee;
+  }
+
+  .visit .m-search-container {
+    border-color: #327ee2;
+  }
+
+  .visit .u-navsite .u-navsite-level-3 > li.u-navsite-current > a:hover {
+    background: #ddd;
+    color: #333333;
+  }
+
+  .visit .m-search-container {
+    background: #2A80DB;
+    border: 1px solid #6ea4eb;
+  }
+
+  .visit.frontpage .visit-fallopenhouses {
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+
+  .visit.frontpage .visit-fallopenhouses:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: 0;
+    bottom: 8px;
+    left: 0;
+    border: 3px double #ffbf00;
+    border-right: none;
+    border-left: none;
+  }
+
+  .visit .visit-campusvisit .l-twocol-column:first-child {
+    -moz-box-shadow: 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white;
+    -webkit-box-shadow: 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white;
+    box-shadow: 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white, 0 0px 40px white;
+  }
+
+  /* Navigation */
+  .visit.directions .u-navsite-level-1 > li.u-navsite-open > a {
+    color: #000;
+  }
+
+  .visit.directions .u-navsite-level-1 > li.u-navsite-open > a:hover {
+    color: #fff;
+  }
+
+  .visit.directions .u-navsite-level-2 a {
+    background: #E3F9FA;
+    color: #446C6E;
+  }
+
+  .visit.directions .u-navsite-level-2 .u-navsite-open a,
+  .visit.directions .u-navsite-level-2 a:hover {
+    background: #bfe8eb;
+    color: #000;
+  }
+
+  /* Navigation */
+  .visit.dining .u-navsite-level-1 > li > a,
+  .visit.accommodations .u-navsite-level-1 > li > a {
+    text-shadow: none;
+  }
+
+  .visit.dining li:hover > .u-navsite-level-2 > li > a,
+  .visit.accommodations li:hover > .u-navsite-level-2 > li > a {
+    color: #1876D9;
+  }
+
+  .visit.dining li.u-navsite-open:hover > .u-navsite-level-2 > li > a,
+  .visit.accommodations li.u-navsite-open:hover > .u-navsite-level-2 > li > a,
+  .visit.dining .u-navsite-level-2 > li > a,
+  .visit.accommodations .u-navsite-level-2 > li > a {
+    color: #444;
+  }
+
+  .visit.dining li:hover > .u-navsite-level-2 > li > a:hover,
+  .visit.accommodations li:hover > .u-navsite-level-2 > li > a:hover {
+    background: #1876D9;
+    color: #fff;
+    text-shadow: none;
+  }
+
+  .visit.dining .u-navsite-level-2 > li.u-navsite-current > a,
+  .visit.dining .u-navsite-level-2 > li > a:hover,
+  .visit.accommodations .u-navsite-level-2 > li.u-navsite-current > a,
+  .visit.accommodations .u-navsite-level-2 > li > a:hover {
+    background: #d4dee0;
+    color: #000;
+  }
+
+  .visit.dining .m-search-container {
+    background: rgba(240, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    top: 3px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+
+  /* Search */
+  .visit.accommodations .m-search-container {
+    background: #98BFD9;
+    top: 3px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+}
+/* Sidebar */
+@media all and (min-width: 716px) {
+  .visit.dining .l-main,
+  .visit.dining .l-footer,
+  .visit.accommodations .l-main,
+  .visit.accommodations .l-footer {
+    margin-left: 0;
+    border-left: 13em solid white;
+  }
+
+  .visit.frontpage .visit-fallopenhouses {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+}
+@media all and (min-width: 1024px) {
+  .visit.frontpage .l-side-image .l-twocol-column.secondcol {
+    margin-top: -28em;
+  }
+
+  .visit.frontpage .visit-fallopenhouses {
+    background: #d24800 url("../images/visit-openhouse.jpg") center right no-repeat;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .visit.frontpage .visit-fallopenhouses .l-twocol-column:last-child {
+    padding-left: 1%;
+  }
+}

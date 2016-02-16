@@ -1,0 +1,190 @@
+/* Vassar College Standard Stylesheet
+ * v1.0
+ * Last Updated: 2012-10-22
+ *
+ * Default states for basic display. 
+ * If all else fails, these styles give a readable page.
+ * Closely related to reset.css.
+ * See "Sychronoized with reset styles" block
+ */
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/* HTML elements
+	========================================================================== */
+a {
+  text-decoration: none;
+  border-bottom: solid 1px black;
+  padding-bottom: 1px;
+}
+
+html {
+  font: 100%/1.75 Helvetica, Arial, sans-serif;
+}
+
+input,
+select,
+textarea {
+  font-size: 1em;
+  line-height: 1;
+}
+
+small {
+  font-size: 75%;
+}
+
+/* Classes
+	========================================================================== */
+.vcard {
+  /*	font:.75em Verdana, Helvetica, Arial, sans-serif; */
+}
+
+/* override reset backwards compatibility */
+.vcard-adr b {
+  font-weight: normal;
+}
+
+.vcard-office {
+  font-weight: normal;
+}
+
+.vcard-org {
+  font-weight: normal;
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+@media screen {
+  /* HTML elements
+  	========================================================================== */
+  fieldset {
+    border-width: 1px;
+    border-style: solid;
+    margin: 0 0.25em;
+    padding: 0.35em 0.625em 0.75em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  table {
+    margin: 1em 0;
+  }
+
+  td,
+  th {
+    padding: .5em;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  /* Classes
+  ========================================================================== */
+  .figure,
+  .u-blocklevellink {
+    display: table;
+    width: auto;
+    /* 1px */
+  }
+
+  .figure-center,
+  .image-center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .figure-left,
+  .image-left {
+    float: left;
+    margin-left: 0;
+  }
+
+  .figure-right,
+  .image-right {
+    float: right;
+    margin-right: 0;
+  }
+
+  .image-center {
+    display: block;
+  }
+
+  .u-navsite-level-1,
+  form ul {
+    list-style: none;
+    list-style-image: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .u-navsite-level-2,
+  .u-navsite-level-3,
+  .u-navsite-level-4,
+  .u-navsite-level-5,
+  .u-navsite-level-6 {
+    list-style: none;
+    list-style-type: none;
+  }
+
+  .u-navsite-level-1 a {
+    display: block;
+  }
+
+  /* vcard
+     ======================================================================== */
+  .vcard a {
+    margin-right: 1em;
+    position: relative;
+  }
+
+  		                 /*	.vcard a:after {
+  		color:#000;
+  		content:"\007C"; /* | 
+  		position:absolute;
+  		padding-left:.5em;
+  	}
+  */
+  .vcard-org a:after,
+  .vcard a:last-of-type:after,
+  .vcard-sites a:last-of-type:after {
+    content: "";
+  }
+}
+/* ==========================================================================
+   Color
+   ========================================================================== */
+/* HTML elements
+	========================================================================== */
+fieldset {
+  border-color: #c0c0c0;
+}
+
+html {
+  background-color: #fff;
+  color: #000;
+}
+
+/**
+ * Sychronoized with reset styles
+ */
+hr {
+  border-color: #ccc;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+}
+
+/**
+ * Sychronoized with reset styles
+ */

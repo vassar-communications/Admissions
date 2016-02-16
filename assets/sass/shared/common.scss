@@ -1,0 +1,183 @@
+/* Vassar College Common Stylesheet
+ * v1.0
+ * Last Updated: 2012-10-19 
+ *
+ * Styles that are common to all sites but are not modules. Mostly for accessibility.
+ */
+/* ========================================================================
+   Layout
+   ======================================================================== */
+@media screen {
+  /* Image Replacement (non-transparent images)
+   * http://nicolasgallagher.com/css-image-replacement-with-pseudo-elements/
+  -----------------------------------------------*/
+  .ir {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .ir:before {
+    display: -moz-inline-block;
+    /* for Firefox 1.5 & 2 */
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  /* :hover hack for IE8 if no a:hover styles declared */
+  .ir:hover {
+    cursor: pointer;
+  }
+
+  /* IE 6/7 */
+  .ir {
+    *text-indent: -9999em;
+  }
+
+  /* hack for IE6 */
+  .ir:hover {
+    _margin: 0;
+  }
+
+  /*
+   * SAMPLE for your extension
+   *
+  
+  --- Define width and height
+  .ir-yourextension {
+     	height:40px;
+     	width:150px;		
+  }		
+  
+  	--- Define image
+  	.ir-yourextension:before {
+  	   content:url(../images/image.png);
+  	}
+  	
+  	--- If using a sprite
+  	/* repositioning the sprite *
+  	.ir-yourextension:hover:before,
+  	.ir-yourextension:focus:before,
+  	.ir-yourextension:active:before {
+  		margin:-40px 0 0;
+  	}
+  
+  --- Hndle IE6/IE7
+  --- Define image
+  /* IE 6/7 *
+  .ir-yourextension {
+     *background:url(../images/image.png) no-repeat;
+  }
+  
+  	--- If using sprite
+  	.ir-yourextension:hover,	
+  	.ir-yourextension:active {
+  		*background-position:0 -40px;
+  	}
+  */
+  /* Image Replacement (transparent images)
+  /* http://nicolasgallagher.com/another-css-image-replacement-technique/
+  -----------------------------------------------*/
+  .ir-transparent {
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+  }
+
+  /*
+   * SAMPLE for your extension
+   *
+   
+   --- Define image, width, and height
+  .ir-transparent-yourextension {
+  	background: url(test.png);
+    	width: 300px;
+    	height: 75px;
+  }
+  */
+  .js .antifouc {
+    visibility: hidden;
+  }
+
+  .js .antifouc-show {
+    visibility: visible;
+  }
+
+  /* Hidden
+     ======================================================================== */
+  .hidden {
+    display: none !important;
+    visibility: hidden;
+  }
+
+  /* Hide visually, make available for screenreaders by Thierry Koblentz - http://yaccessibilityblog.com/library/css-clip-hidden-content.html */
+  .ac-hiddenvisually {
+    border: 0 !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px !important;
+    padding: 0 !important;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px !important;
+  }
+
+  .ac-hiddenvisually:active,
+  .ac-hiddenvisually:focus {
+    clip: auto;
+    height: auto !important;
+    overflow: visible;
+    position: static !important;
+    width: auto !important;
+  }
+
+  /* Navigation
+     ======================================================================== */
+  .nav,
+  form ul {
+    list-style: none;
+    list-style-image: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Skip link for accessibility
+     ======================================================================== */
+  #targetnavigation {
+    position: absolute;
+  }
+
+  .ac-skiplink {
+    position: absolute;
+    top: -9999em;
+    -moz-transition: background 100ms ease-in;
+    -ms-transition: background 100ms ease-in;
+    -o-transition: background 100ms ease-in;
+    -webkit-transition: background 100ms ease-in;
+    transition: background 100ms ease-in;
+  }
+
+  .ac-skiplink:active,
+  .ac-skiplink:focus,
+  .ac-skiplink:hover {
+    background: none repeat scroll 0 0 #ee6910;
+    -moz-box-shadow: 0 1px 5px 0 rgba(50, 50, 50, 0.5);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(50, 50, 50, 0.5);
+    box-shadow: 0 1px 5px 0 rgba(50, 50, 50, 0.5);
+    font-family: arial;
+    font-weight: bold;
+    left: 0;
+    margin: 0;
+    padding: 0.6em 0.8em !important;
+    position: absolute !important;
+    right: 0;
+    text-shadow: 0 1px 1px rgba(50, 50, 50, 0.85);
+    top: 0;
+    z-index: 200;
+  }
+}

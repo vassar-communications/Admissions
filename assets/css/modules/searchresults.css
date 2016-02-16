@@ -1,0 +1,298 @@
+/*	Admissions overrides
+	-------------------- */
+.gsc-wrapper {
+  max-width: 52em;
+}
+
+.gsc-control-wrapper-cse table {
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+.gsc-control-wrapper-cse td {
+  padding: 0;
+}
+
+.gsc-webResult.gsc-result {
+  padding: 0;
+}
+
+/*	Starter search reset
+	-------------------- */
+.cse .gs-webResult .gs-visibleUrl, .gs-webResult .gs-visibleUrl, .cse .gs-webResult .gs-visibleUrl-short, .gs-webResult .gs-visibleUrl-short, .gs-imageResult .gs-visibleUrl, .gs-imageResult .gs-visibleUrl-short {
+  font-weight: normal !important;
+}
+
+.gsc-control-cse .gs-result .gs-title,
+.gsc-control-cse .gs-result .gs-title b,
+.gs-snippet,
+.gsc-above-wrapper-area-container {
+  text-decoration: none !important;
+  font-size: 1rem !important;
+  font-family: "Helvetica" !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  line-height: 1.2 !important;
+}
+
+.gsc-table-cell-snippet-open,
+.gsc-table-cell-snippet-close {
+  margin: 0;
+  padding: 0;
+}
+
+.gs-webResult.gs-result a.gs-title:link b,
+.gs-imageResult a.gs-title:link b,
+.gs-webResult.gs-result a.gs-title:visited b,
+.gs-imageResult a.gs-title:visited b,
+.gsc-control-cse .gs-result .gs-title b {
+  font-weight: inherit !important;
+  font-size: inherit !important;
+}
+
+.gs-snippet,
+.gsc-above-wrapper-area-container {
+  font-weight: normal !important;
+}
+
+.gs-snippet,
+.gsc-above-wrapper-area-container {
+  font-weight: normal !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  text-shadow: none !important;
+  font-weight: normal !important;
+}
+
+@media screen {
+  td.gsc-table-cell-thumbnail.gsc-thumbnail,
+  .gs-image img.gs-image {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .gcsc-branding,
+  .gsc-resultsHeader {
+    display: none;
+  }
+
+  .gsc-result .gs-title {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .gsc-selected-option-container {
+    min-width: 70px !important;
+  }
+}
+.gsc-control-cse {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+.gsc-webResult.gsc-result {
+  border: 0 !important;
+  background-color: transparent !important;
+}
+
+.gsc-control-cse,
+.gsc-results-wrapper-visible table,
+.gsc-table-result,
+.gsc-thumbnail-inside,
+.gsc-url-top,
+.cse .gsc-webResult.gsc-result,
+.gsc-webResult.gsc-result,
+.gsc-imageResult-classic,
+.gsc-imageResult-column,
+.gsc-result .gs-title {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.gsc-cursor-box.gs-bidi-start-align,
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+  margin: 0 !important;
+}
+
+.gsc-control-wrapper-cse a {
+  text-decoration: none;
+  /*link-colors($normal, $hover, $active, $visited, $focus)*/
+  color: #3789CC;
+}
+
+/* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/links/_link-colors.scss */
+.gsc-control-wrapper-cse a:visited {
+  color: #666;
+}
+
+/* line 21, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/links/_link-colors.scss */
+.gsc-control-wrapper-cse a:focus {
+  color: #cc0000;
+}
+
+/* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/links/_link-colors.scss */
+.gsc-control-wrapper-cse a:hover {
+  color: #cc0000;
+}
+
+/* line 27, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/links/_link-colors.scss */
+.gsc-control-wrapper-cse a:active {
+  color: #ED6707;
+}
+
+/* line 109, ../../sass/modules/searchresults-reset.scss */
+.gs-webResult.gs-result a.gs-title:link b,
+.gs-imageResult a.gs-title:link b,
+.gs-webResult.gs-result a.gs-title:visited b,
+.gs-imageResult a.gs-title:visited b,
+.gsc-control-cse .gs-result .gs-title b {
+  color: #f0f !important;
+}
+
+/* line 116, ../../sass/modules/searchresults-reset.scss */
+.gsc-control-cse .gs-result .gs-title:visited,
+.gsc-control-cse .gs-result .gs-title b:visited,
+.gs-snippet:visited,
+.gsc-above-wrapper-area-container:visited {
+  color: #3789CC !important;
+}
+
+/* line 122, ../../sass/modules/searchresults-reset.scss */
+.gsc-control-cse .gs-result .gs-title:focus,
+.gsc-control-cse .gs-result .gs-title b:focus,
+.gs-snippet:focus,
+.gsc-above-wrapper-area-container:focus {
+  color: #3789CC !important;
+}
+
+/* line 128, ../../sass/modules/searchresults-reset.scss */
+.gsc-control-cse .gs-result .gs-title:hover,
+.gsc-control-cse .gs-result .gs-title b:hover,
+.gs-snippet:hover,
+.gsc-above-wrapper-area-container:hover {
+  color: #3789CC !important;
+}
+
+/* line 134, ../../sass/modules/searchresults-reset.scss */
+.gsc-control-cse .gs-result .gs-title:active,
+.gsc-control-cse .gs-result .gs-title b:active,
+.gs-snippet:active,
+.gsc-above-wrapper-area-container:active {
+  color: #3789CC !important;
+}
+
+/* line 140, ../../sass/modules/searchresults-reset.scss */
+.gsc-results-wrapper-visible td,
+.gsc-results-wrapper-visible th {
+  border: 0 !important;
+}
+
+/* line 144, ../../sass/modules/searchresults-reset.scss */
+.gsc-result-info {
+  padding: 0 !important;
+}
+
+/* line 147, ../../sass/modules/searchresults-reset.scss */
+.gsc-control-cse tr:nth-child(2n+1) {
+  background-color: transparent !important;
+}
+
+/* line 150, ../../sass/modules/searchresults-reset.scss */
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  background: #eee !important;
+}
+
+/*	Search styling
+	-------------- */
+.gsc-results.gsc-webResult > .gsc-webResult.gsc-result,
+.gsc-expansionArea .gsc-webResult.gsc-result {
+  margin-bottom: 2em !important;
+}
+
+.gsc-webResult.gsc-result .gs-title {
+  font: bold 1.2em/1.1 "Helvetica" !important;
+}
+
+.gs-webResult.gs-result a.gs-title:link b,
+.gs-imageResult a.gs-title:link b,
+.gs-webResult.gs-result a.gs-title:visited b,
+.gs-imageResult a.gs-title:visited b,
+.gsc-control-cse .gs-result .gs-title b {
+  font-weight: bold !important;
+}
+
+.gs-bidi-start-align.gs-visibleUrl.gs-visibleUrl-long {
+  font-size: .9rem !important;
+}
+
+.gsc-above-wrapper-area {
+  margin-bottom: 2rem;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+  font-size: 1rem;
+  padding: 1.25rem 1rem;
+  line-height: 0 !important;
+  margin-left: -1px !important;
+  text-align: center !important;
+  width: 1em;
+}
+
+/* LAYOUT */
+@media screen {
+  .gsc-results .gsc-cursor-box .gsc-cursor-page {
+    display: inline-block !important;
+    position: relative !important;
+  }
+
+  .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    z-index: 1 !important;
+  }
+
+  .gsc-cursor-page:hover {
+    z-index: 2 !important;
+  }
+}
+/* COLOR */
+.gs-visibleUrl-long {
+  color: #666 !important;
+}
+
+.gs-visibleUrl-long:visited {
+  color: #666;
+}
+
+.gs-visibleUrl-long:focus {
+  color: #cc0000;
+}
+
+.gs-visibleUrl-long:hover {
+  color: #cc0000;
+}
+
+.gs-visibleUrl-long:active {
+  color: #ED6707;
+}
+
+.gs-visibleUrl-long:focus,
+.gs-visibleUrl-long:hover,
+.gs-visibleUrl-long:active {
+  color: #3789CC !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+  border: 1px solid #eee;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  background: #eee !important;
+  border-color: #ccc !important;
+}
+
+.gsc-cursor-page:hover {
+  background: #ddd !important;
+  border-color: #ccc !important;
+}

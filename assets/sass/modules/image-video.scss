@@ -1,0 +1,134 @@
+.video {
+  /*	@include v-pixel-fallback ('margin-top', 2em);
+  /*	margin-top: 2em;
+  /*	padding: .7em .5em .6em .5em; */
+  /*	background: #fff; */
+  height: 64px;
+  height: 4em;
+  display: inline-block;
+  clear: both;
+}
+
+.video h3 {
+  font-size: 16px;
+  font-size: 1em;
+  /*	font-size: 1em;
+  */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline;
+  margin-right: 6.4px;
+  margin-right: 0.4em;
+  /*	margin-right: .4em;
+  */
+  color: #ccc;
+  float: right;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.video p {
+  margin: 0;
+  /*  border-bottom: 1px dashed #eeeeee; */
+  position: relative;
+}
+
+.video p:last-child {
+  border: none;
+}
+
+.video a {
+  border: none;
+  display: block;
+  overflow: hidden;
+  padding: 1.2em 1em 1em 3.7em;
+  text-indent: -9999px;
+  letter-spacing: 0;
+}
+
+.video a:hover {
+  border: none;
+}
+
+.video.showcaption a {
+  text-indent: 0;
+}
+
+.v .video.showcaption a {
+  text-indent: -9999px;
+}
+
+.video-button a:before,
+.video a:before {
+  position: absolute;
+  top: 0.8em;
+  left: 0;
+  color: #fff;
+  content: "\25B6";
+  background: #f00;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  border-radius: 0.4em;
+  padding: 1.1em 1em 0.8em 1em;
+  margin-right: 0;
+  text-shadow: none;
+  border: 1px solid white;
+  line-height: 0;
+  text-indent: 0;
+  font-size: 1em !important;
+}
+
+.image-video {
+  position: relative;
+}
+
+.image-video .video-button a {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  text-indent: -9999px;
+}
+
+.image-video.inline {
+  height: 6em;
+}
+
+.image-video.inline .video-button a {
+  position: relative;
+  display: block;
+  text-indent: -9999px;
+  margin-top: -1em;
+}
+
+.image-video .video-button {
+  margin: 0;
+}
+
+.image-video .video-button.bottom a {
+  position: absolute;
+  top: auto;
+  bottom: 3.6em;
+  left: 1em;
+}
+
+.image-video .video-button a:before {
+  border: 2px solid white;
+  -webkit-box-shadow: 0 1px 4px #320000;
+  -moz-box-shadow: 0 1px 4px #320000;
+  box-shadow: 0 1px 4px #320000;
+  text-indent: 0;
+}
+
+.video a:hover {
+  border-bottom: none !important;
+}
+
+.video:hover a:before,
+.video-button:hover a:before {
+  background: #a00;
+}

@@ -1,0 +1,134 @@
+.l-header {
+  text-align: left;
+  position: relative;
+}
+
+.u-masthead {
+  text-align: center;
+}
+
+.u-masthead a,
+.u-masthead a i {
+  font-weight: 300;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+@media all and (min-width: 600px) {
+  .u-masthead a,
+  .u-masthead a i {
+    text-shadow: none;
+  }
+}
+.l-header h1 {
+  font-size: 22.4px;
+  font-size: 1.4em;
+  /*	font-size: 1.4em;
+  */
+  text-transform: uppercase;
+  font-family: "proxima-nova-condensed";
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.l-header h1 i {
+  font-weight: 100;
+  font-family: inherit;
+  font-size: inherit;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-bottom: 0.5em;
+  /*		margin-bottom: .5em;
+  */
+  padding-bottom: 8px;
+  padding-bottom: 0.5em;
+  /*		padding-bottom: .5em;
+  */
+}
+
+.u-masthead i {
+  font-style: normal;
+}
+
+/*
+@media all and (min-width: 500px) {
+  .l-header {
+    width: 100%; }
+
+  .u-masthead {
+    width: 49%; } }
+    */
+@media all and (min-width: 600px) {
+  .l-header {
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    z-index: 9999;
+    overflow: hidden;
+  }
+
+	.l-header h1 i {
+		font-family: "proxima-nova";
+		font-size: .8em;
+		/*    border-bottom: 1px solid #666666; */
+		/*		font-size: 1.2em;
+		*/
+	}
+	.l-header h1 i {
+		display: block;
+		clear: both;
+		text-align: center;
+		/*    width: 80%; */
+		margin: 0 auto;
+		padding: 0;
+	}
+	.l-header h1 i a {
+		padding: 0.4em 0.7em;
+		font-weight: 700;
+		font-size: .8em;
+	}
+	.l-header h1 > i,
+	.l-header h1 > a {
+		margin-bottom: 1px;
+	}
+	.l-header h1 > a {
+		padding: 0.7em;
+	}
+	.l-header a {
+		border: none;
+	}
+
+  .u-masthead a:before {
+    content: "";
+    position: absolute;
+    width: 4000px;
+    width: 250em;
+    left: -800px;
+    left: -50em;
+    /*				width: 250em;
+    				left: -50em;
+    				*/
+    height: 6px;
+    top: 0;
+  }
+
+  .u-masthead {
+    display: inline-block;
+    /*		padding: 1em; */
+    /* background: #eee; */
+    z-index: 99 !important;
+    width: auto;
+    left: 1.2em;
+    top: 0;
+    position: absolute;
+  }
+
+  .u-masthead a {
+    display: block;
+    padding: 0.3em 0.7em;
+    /*			padding: 1.4em 1em;
+    */
+  }
+}

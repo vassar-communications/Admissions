@@ -1,0 +1,419 @@
+/* ACADEMICS ------------------------------------------ */
+.academics a {
+  color: #d74c20;
+}
+
+.academics a:hover {
+  color: black;
+}
+
+/* Masthead */
+
+.academics .u-masthead {
+	background: #d74c20;
+}
+.academics .u-masthead a {
+	color: #fff;
+	text-shadow: none;
+}
+@media all and (min-width: 600px) {
+	.academics .u-masthead {
+		background: none;
+	}
+	.academics .u-masthead > a,
+	.academics .u-masthead > i {
+		background: #d74c20;
+	}
+	.academics .u-masthead > a,
+	.academics .u-masthead > i,
+	.academics .u-masthead > i a {
+		color: #fff;
+	}
+	.academics .u-masthead > a:hover,
+	.academics .u-masthead > i:hover {
+		background: #000;
+	}
+}
+.academics .u-masthead {
+	border-bottom: 4px solid #d74c20;
+}
+.academics .u-masthead a:before {
+  border-color: #000;
+}
+
+.academics body:before {
+  border-color: #8A5B48;
+}
+
+/* Search */
+.academics .m-search-container {
+  border-color: #d04f0d;
+}
+
+.academics .m-search-container .m-search-submit {
+  color: #aaa;
+}
+
+.academics.frontpage .introsec-container {
+  border-bottom: 4px solid #4f3224;
+  /*  padding-top: 48px;
+    padding-top: 3em;
+    padding-bottom: 0; */
+}
+
+.academics.frontpage .introsec-container .sec-content {
+  padding: 0 4% 32px 0;
+  padding: 0 4% 2em 0;
+  /*	padding: 0 4% 2em 0;
+  */
+  position: relative;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  overflow: visible;
+  max-width: 700px;
+}
+
+.academics.frontpage .l-footer .vcard,
+.academics.summer-research .l-footer .vcard {
+  border-color: transparent;
+}
+
+/* Section: Experiential Learning */
+.academics.frontpage .acad-degreereqs {
+  background: url("../images/factsbg.jpg");
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.academics.frontpage .acad-experiential-1 {
+  background: #6ED5F5;
+}
+
+.academics.frontpage .acad-experiential-2 {
+  padding-top: 0;
+  background: #6ED5F5;
+}
+
+.academics.frontpage .acad-experiential-1 a,
+.academics.frontpage .acad-experiential-2 a {
+  color: #fff;
+  border: none;
+}
+
+.academics.frontpage .acad-experiential-1 a:hover,
+.academics.frontpage .acad-experiential-2 a:hover {
+  color: #355;
+}
+
+.academics.frontpage .acad-advising {
+  background: #f2e3c2 url("../images/acad-advising.jpg") bottom center no-repeat;
+  background-size: 100%;
+  padding-bottom: 80%;
+}
+
+/* SUMMER RESEARCH */
+.academics.summer-research h2 {
+  color: #ff6;
+  opacity: .9;
+}
+
+.academics.summer-research a {
+  color: #66aa00;
+}
+
+.academics.summer-research a:hover {
+  color: #ff4400;
+}
+
+/* Masthead */
+
+
+
+.academics.summer-research .u-masthead {
+	background: #A4BF0B;
+}
+.academics.summer-research .u-masthead a {
+	color: #fff;
+	text-shadow: none;
+}
+@media all and (min-width: 600px) {
+	.academics.summer-research .u-masthead {
+		background: none;
+	}
+	.academics.summer-research .u-masthead > a,
+	.academics.summer-research .u-masthead > i {
+		background: #A4BF0B;
+	}
+	.academics.summer-research .u-masthead > a,
+	.academics.summer-research .u-masthead > i,
+	.academics.summer-research .u-masthead > i a {
+		color: #fff;
+	}
+	.academics.summer-research .u-masthead > a:hover,
+	.academics.summer-research .u-masthead > i:hover {
+		background: #000;
+	}
+}
+.academics.summer-research .u-masthead {
+	border-bottom: 4px solid #A4BF0B;
+}
+
+
+.academics.summer-research .u-masthead a:before {
+  border-color: #6a0;
+}
+.academics.summer-research body:before {
+  border-color: #ddc255;
+}
+
+.academics.summer-research .introsec-container {
+  background: #000;
+  padding-bottom: 4%;
+  padding-top: 6%;
+}
+
+/* Search */
+.academics.summer-research .m-search-container {
+  border-color: #A4BF0B;
+}
+
+/* Navigation */
+.academics.summer-research .u-navsite-level-1 > li > a {
+  color: #62b3ce;
+}
+
+.academics.summer-research .u-navsite-level-1 > li:hover > a {
+  background: #75c4de;
+  color: #fff;
+}
+
+.academics.summer-research .u-navsite-level-1 > li.u-navsite-open:hover > a {
+  background: inherit;
+  color: #000;
+}
+
+.academics.summer-research .u-navsite-level-1 > .u-navsite-open > a {
+  background: none;
+  color: #000;
+}
+
+.academics.summer-research li:hover > .u-navsite-level-2 {
+  border-color: #75c4de;
+}
+
+.academics.summer-research .u-navsite-level-2 > .u-navsite-current > a,
+.academics.summer-research .u-navsite-level-2 > .u-navsite-open > a {
+  background: #310;
+}
+
+.academics.summer-research li:hover .u-navsite-level-2 > li > a:hover {
+  background: #75c4de;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.academics.summer-research .u-navsite-level-1 > li.u-navsite-open > a:hover,
+.academics.summer-research li.u-navsite-open .u-navsite-level-2 > li > a:hover {
+  background: #ffa;
+  text-shadow: none;
+  color: #330;
+}
+
+.academics.summer-research .introsec-container p {
+  color: #fff;
+}
+
+.academics.summer-research .introsec-container .image-video .video-button p {
+  margin: 0;
+}
+
+/* Section: Ford Scholars */
+.academics.summer-research .acad-summer-fordscholars {
+  background: #FBFFE3;
+  border-top: 1px dashed #c9cbb2;
+  border-bottom: 1px dashed #c9cbb2;
+}
+
+/* Academics > Facilities */
+.academics.facilities .acad-facilities-fllac {
+  background: #fff4e7;
+  /* url("../images/acad-facilities-fllacbg.jpg") center; */
+}
+
+.academics.facilities .acad-facilities-fllac .sec-content p {
+  color: #511;
+}
+
+.academics.facilities .acad-facilities-fllac p {
+  color: #eee;
+}
+
+.academics.facilities .acad-facilities-computing {
+  background: #87D7ED;
+}
+
+.academics.facilities .acad-facilities-computing img {
+  border: none;
+}
+
+.academics.facilities .acad-facilities-computing p {
+  color: #1b68a5;
+}
+
+@media all and (min-width: 600px) {
+  /* Navigation */
+  .academics .u-navsite-level-1 a {
+    color: #aa7700;
+  }
+
+  .academics .u-navsite-level-1 > li:hover,
+  .academics .u-navsite-level-1 > li.u-navsite-open > a,
+  .academics .u-navsite-level-1 > li.u-navsite-current > a {
+    background: #f9e6c2;
+  }
+
+  .academics .u-navsite-level-1 > li.u-navsite-open > a,
+  .academics .u-navsite-level-1 > li.u-navsite-current > a,
+  .academics .u-navsite-level-1 > li:hover > a {
+    color: #000;
+  }
+
+  .academics .u-navsite-level-1 > li.u-navsite-open,
+  .academics .u-navsite-level-1 > li.u-navsite-current {
+    background: #f9e6c2;
+    color: #aa7700;
+    border-color: #CFB78A;
+  }
+
+  .academics li:hover .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #f9e6c2;
+  }
+
+  .academics .shrink li:hover .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #f9e6c2;
+  }
+
+  .academics .u-navsite-level-2 > li > a {
+    color: #000;
+  }
+
+  /*	.academics li.u-navsite-open:hover .u-navsite-level-2 {
+  	  background: none;
+  	 } */
+  .academics .u-navsite-level-1 > li.u-navsite-open > a:hover,
+  .academics .u-navsite-level-2 > li > a:hover {
+    background: #d3c49f;
+  }
+
+  .academics .u-navsite-level-2 > li.u-navsite-open > a,
+  .academics .u-navsite-level-2 > li.u-navsite-current > a,
+  .academics .u-navsite-level-2 > li.u-navsite-open > a:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  .academics .u-navsite-level-3 {
+    background: #fff;
+    border-bottom: 1px solid #dbc89b;
+  }
+
+  .academics .u-navsite-level-3 > li > a {
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .academics .u-navsite-level-2 .u-navsite-level-3 > li > a:hover,
+  .academics .u-navsite-level-2 .u-navsite-level-3 > li.u-navsite-current > a {
+    background: #eee;
+    border-bottom: 1px solid white;
+    color: #444;
+  }
+
+  .academics .m-search-container {
+    background: #000;
+    border: 1px solid white;
+  }
+
+  .academics.summer-research .m-search-container {
+    background: #6a0;
+    border: 1px solid #c0d25e;
+  }
+
+  .academics.summer-research .m-search-container .m-search-submit {
+    color: #c0d25e;
+  }
+
+  .academics.summer-research .u-navsite-level-1 > .u-navsite-open {
+    background: #ffe680;
+  }
+
+  .academics.facilities .m-search-container {
+    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+}
+@media all and (min-width: 1024px) {
+
+
+	/*	Majors and correlates page
+		-------------------------- */
+	
+	.academics.majorsminors .l-twocol-column {
+		width: 39%;
+		float: left;
+	}
+	.academics.majorsminors .l-side-image h3 {
+		width: auto;
+	}
+
+
+
+
+  .academics.frontpage .introsec-container .sec-content {
+    width: 60%;
+  }
+
+  .academics.frontpage .introsec-container .sec-content:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 100%;
+    width: 1500px;
+    background: url("../images/books-right.jpg") bottom left repeat-x;
+  }
+
+  .academics.frontpage .acad-major {
+    background: url("../images/acad-major.jpg") top right no-repeat;
+  }
+
+  .academics.summer-research .introsec-container {
+    background: black url("../images/acad-summerresearch-ursi.jpg") top right no-repeat;
+    background-size: 90%;
+    height: 640px;
+    height: 40em;
+  }
+
+  .academics.summer-research .introsec-container .image-video .video-button a {
+    position: static;
+  }
+
+  .academics.summer-research .introsec-container .image-video .video-button a:before {
+    position: absolute;
+    top: .8em;
+    left: .6em;
+    color: #fff;
+    content: "";
+    background: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin-right: 1em;
+    line-height: 0;
+  }
+}
+
+
+
+

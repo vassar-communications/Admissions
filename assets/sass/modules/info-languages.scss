@@ -1,0 +1,40 @@
+
+
+.factsOtherLanguages {
+	border: 1px solid rgba(0,0,0,.1);
+	padding: .25em 0;
+	margin-bottom: 1em;
+	border-left: none;
+	border-right: none;
+}
+	.factsOtherLanguages a {
+		border: none;
+	}
+.l-content ul.foreignFacts li {
+/*	border: 1px solid rgba(0,0,0,.2); */
+	display: inline;
+	padding-left: 0;
+	padding: .5em;
+}
+.l-content ul.foreignFacts li a {
+	background: url("http://admissions.vassar.edu/assets/images/application-pdf.png") no-repeat;
+	padding-left: 20px;
+	font-weight: 100;
+}
+.l-content ul.foreignFacts li:first-child {
+
+}
+.l-content ul.foreignFacts li:before {
+	content: "";
+}
+.factsOtherLanguages h3 {
+	font-family: "proxima-nova-condensed", sans-serif;
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.factsOtherLanguages h3,
+ul.foreignFacts {
+	display: inline;
+}

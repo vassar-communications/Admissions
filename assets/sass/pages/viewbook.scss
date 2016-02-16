@@ -1,0 +1,156 @@
+/*	Viewbook
+	-------- */
+.viewbook {
+  background: #fff;
+}
+
+.viewbook body:before {
+  border-color: #f00;
+}
+
+.viewbook .u-masthead {
+  background: #000;
+}
+
+.viewbook .u-masthead a:before {
+  border-color: #f20;
+}
+
+.viewbook .u-masthead a {
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .viewbook .u-navsite-id-request-info {
+    background: #65a5e0;
+  }
+
+  .viewbook .l-main, .viewbook .l-footer {
+    margin-left: 0;
+    border-left: 13em solid #3891d4;
+  }
+
+  .student-life .u-navsite-level-1 li:hover .u-navsite-level-2 {
+    border: 1px solid white;
+    -moz-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .student-life .u-navsite-level-1 > li.u-navsite-open:hover > .u-navsite-level-2 {
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .student-life .shrink .u-navsite-level-1 > li:hover > .u-navsite-level-2 {
+    -moz-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .student-life .u-navsite-level-1 > li > a {
+    color: #fff;
+  }
+
+  .student-life .u-navsite-level-1 > li:hover {
+    background: #fff;
+  }
+
+  .student-life .u-navsite-level-1 > li:hover a {
+    color: #000;
+  }
+
+  .viewbook .u-navsite-level-1 > li.u-navsite-open > a {
+    background: #000;
+  }
+
+  .viewbook .u-navsite-level-1 > li > a {
+    background: #3cf;
+    color: #fff;
+  }
+
+  .viewbook .u-navsite-level-1 > li {
+    border: none;
+  }
+
+  .viewbook .u-navsite-level-1 > li > a {
+    color: #fff;
+    background: none;
+  }
+
+  .viewbook .u-navsite-level-1 > li:hover {
+    background: #3cf;
+    color: #fff;
+  }
+
+  .viewbook .u-navsite-level-1 > li:hover a {
+    color: #000;
+  }
+
+  .viewbook .u-navsite-level-1 > li.u-navsite-open > a {
+    color: #000;
+    background: none;
+  }
+
+  .viewbook .u-navsite-level-1 > li.u-navsite-open > a:hover {
+    color: #3cf;
+  }
+
+  .viewbook .u-navsite-level-2 > li > a:hover {
+    color: white;
+  }
+
+  .viewbook .u-navsite-level-1 > li.u-navsite-open {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    background: #fff;
+    border-right: 1px dashed #33ccff;
+  }
+
+  .viewbook .u-navsite-level-1 li.u-navsite-open:hover .u-navsite-level-2 {
+    border: none;
+  }
+
+  .viewbook .u-navsite-level-1 > li:hover > .u-navsite-level-2 {
+    background: #fff;
+    border-color: #3cf;
+  }
+
+  .viewbook .u-navsite-level-1 > li:hover > .u-navsite-level-2 > li > a:hover {
+    background: #000;
+    color: #fff;
+  }
+}
+/*	Viewbook nav module
+	------------------- */
+.u-navsite-id-viewbook {
+  display: block;
+  margin-top: .2em;
+}
+
+.u-navsite-id-viewbook a {
+  background: none;
+  background-image: url("http://admissions.vassar.edu/assets/images/viewbookCover.jpg") !important;
+  background-position: 1.75em 1em !important;
+  background-repeat: no-repeat !important;
+  height: 120px;
+  padding: 20px 0 0 120px;
+  font-family: "proxima-nova" !important;
+  font-size: .9em !important;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+.u-navsite-id-viewbook:hover {
+  background-image: url("http://admissions.vassar.edu/assets/images/viewbookCover.jpg");
+}
+
+.student-life .u-navsite .u-navsite-level-1 .u-navsite-id-viewbook:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.student-life .u-navsite .u-navsite-level-1 .u-navsite-id-viewbook:hover a {
+  color: #fff;
+}

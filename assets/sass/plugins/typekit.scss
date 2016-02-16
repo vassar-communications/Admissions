@@ -1,0 +1,24 @@
+/* Vassar College Typekit Stylesheet
+ * v1.0
+ * Last Updated: 2012-06-12 
+ *
+ * Styles for Typekit.
+ * Only included if Typekit module is turned on.
+ *
+ */
+/* ========================================================================
+   Layout
+   ======================================================================== */
+@media screen {
+  .is-typekit {
+    visibility: hidden;
+  }
+
+  	/* Web font loader
+        ======================================================================== */
+  .wf-error,
+  .wf-active,
+  .wf-inactive {
+    visibility: visible;
+  }
+}

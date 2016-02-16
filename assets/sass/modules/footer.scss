@@ -1,0 +1,67 @@
+.l-footer b.vcard-label {
+  font-family: "proxima-nova-condensed";
+  text-transform: uppercase;
+  font-size: 12.8px;
+  font-size: 0.8em;
+  /*	font-size: .8em;
+  */
+  letter-spacing: 1px;
+}
+
+.l-footer b.vcard-label:after {
+  content: ":";
+}
+
+.l-footer a {
+  border: none;
+}
+
+.l-footer b.vcard-org a {
+  font-weight: 700;
+}
+
+.vcard-info li,
+.vcard-sites li {
+  display: inline;
+}
+
+.l-footer ul {
+  margin: 0;
+}
+
+.vcard .vcard-tel {
+  margin: 0;
+}
+
+/*	Request Info	*/
+.requestInfo {
+  background: url(../images/icon-requestInfo.png) center left no-repeat;
+  margin-top: .5em;
+  padding-left: 6em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.requestInfo p {
+  font-size: 1em;
+  font-weight: 500;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0.5em 0;
+}
+
+.requestInfo p a {
+  color: #aaa;
+}
+
+.requestInfo p a:hover {
+  color: #666;
+}
+
+.requestInfo p a strong {
+  color: #cc4400;
+}
+
+.requestInfo p a:hover strong {
+  color: #000;
+}

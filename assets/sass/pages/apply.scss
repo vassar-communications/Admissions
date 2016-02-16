@@ -1,0 +1,423 @@
+/* APPLY */
+/* General */
+/* Search */
+.apply .m-search-container {
+  border-color: #bf703c;
+}
+
+.apply body:before {
+  border-color: #a00;
+}
+
+.apply a {
+  color: #cc4400;
+}
+
+.apply a:hover {
+  color: #400;
+  border-color: #faa;
+}
+
+
+
+.apply .u-masthead {
+	background: #C46F45;
+}
+.apply .u-masthead a {
+	color: #fff;
+	text-shadow: none;
+}
+@media all and (min-width: 600px) {
+	.apply .u-masthead {
+		background: none;
+	}
+	.apply .u-masthead > a,
+	.apply .u-masthead > i {
+		background: #C46F45;
+	}
+	.apply .u-masthead > a,
+	.apply .u-masthead > i,
+	.apply .u-masthead > i a {
+		color: #fff;	
+	}
+	.apply .u-masthead > a:hover,
+	.apply .u-masthead > i:hover {
+		background: #f8cd51;
+		color: #000;
+	}
+}
+.apply .u-masthead {
+	border-bottom: 4px solid #C46F45;
+}
+.apply .u-masthead a:before {
+  border-color: #C46F45;
+}
+.apply h2 {
+  color: #a00;
+}
+
+/* Apply nav */
+.apply .u-navsite-level-1 a {
+  color: #aa2200;
+}
+
+.apply .u-navsite-level-1 > li.u-navsite-open:hover > a,
+.apply .u-navsite-level-1 .u-navsite-open > a {
+  color: black;
+}
+
+.apply .u-navsite-level-1 > li.u-navsite-open {
+  border-color: #a66;
+}
+
+.apply .u-navsite-level-2 > li > a {
+  color: #b30;
+}
+
+.apply .u-navsite-level-2 > li.u-navsite-current > a,
+.apply .u-navsite-level-2 > li.u-navsite-open.u-navsite-current > a,
+.apply .u-navsite-level-2 > li > a:hover {
+  background: #c8e3e5;
+  background: #000;
+  color: #fff;
+}
+
+.apply .u-navsite-level-2 > li.u-navsite-open > a {
+  background: #a20;
+  color: #fff;
+}
+
+.apply .u-navsite-level-2 > li.u-navsite-current > a {
+  color: #fff;
+}
+
+.apply .u-navsite-level-3 {
+  background: #fff;
+  border-bottom: 1px solid #d4dfe0;
+}
+
+.apply .u-navsite-level-3 > li > a {
+  border-bottom: 1px dotted #eeeeee;
+}
+
+.apply .u-navsite-level-3 > li:last-child > a {
+  border-color: #fff;
+}
+
+.apply .u-navsite-level-2 .u-navsite-level-3 > li > a:hover,
+.apply .u-navsite-level-2 .u-navsite-level-3 > li.u-navsite-current > a {
+  background: #eee;
+  border-bottom: 1px solid #eeeeee;
+  color: #000;
+}
+
+.apply.frontpage .apply-frontpage-whichapplicant {
+  margin-top: 2em;
+}
+
+.apply.frontpage .introsec-container {
+  background: #faead9 url("../images/factsbg.jpg");
+  padding-top: 8%;
+  padding-bottom: 8%;
+  position: relative;
+}
+
+.apply.frontpage .introsec-container:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 6px;
+  left: 0;
+  height: 1px;
+  border: 1px solid rgba(255, 0, 0, 0.1);
+}
+
+.apply.frontpage .introsec-container:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 6px;
+  z-index: 9;
+  left: 0;
+  height: 1px;
+  border: 1px solid rgba(255, 0, 0, 0.1);
+}
+
+.apply.frontpage .apply-howtoapply {
+  background: #E6FBFC;
+  border-top: 1px solid #beeaed;
+  border-bottom: 1px solid #beeaed;
+}
+
+/* Apply > Forms */
+.apply.forms .apply-forms-formarea {
+  background: #E9F7F7;
+  border-top: 1px dashed #d1ebeb;
+  border-bottom: 1px dashed #d1ebeb;
+}
+
+/* Apply > Yellow Ribbon */
+.apply.yellowribbon h2 {
+  color: #000;
+}
+
+.apply.yellowribbon a:hover {
+  color: #000;
+}
+
+.apply.yellowribbon .u-pagetitle {
+  display: none;
+}
+
+.apply.yellowribbon a {
+  color: #d64b20;
+}
+
+
+/* Masthead */
+
+
+.apply.yellowribbon .u-masthead {
+	background: #264882;
+}
+.apply.yellowribbon .u-masthead a {
+	color: #fff;
+	text-shadow: none;
+}
+@media all and (min-width: 600px) {
+	.apply.yellowribbon .u-masthead {
+		background: none;
+	}
+	.apply.yellowribbon .u-masthead > a,
+	.apply.yellowribbon .u-masthead > i {
+		background: #264882;
+	}
+	.apply.yellowribbon .u-masthead > a,
+	.apply.yellowribbon .u-masthead > i,
+	.apply.yellowribbon .u-masthead > i a {
+		color: #fff;	
+	}
+	.apply.yellowribbon .u-masthead > a:hover,
+	.apply.yellowribbon .u-masthead > i:hover {
+		background: #f8cd51;
+		color: #000;
+	}
+}
+.apply.yellowribbon .u-masthead {
+	border-bottom: 4px solid #264882;
+}
+.apply.yellowribbon .u-masthead a:before {
+  border-color: #264882;
+}
+
+.apply.yellowribbon .u-masthead:hover {
+  background: #d64b20;
+}
+.apply.yellowribbon .l-main li:before {
+  content: "\2605";
+}
+
+/* Search */
+.apply.yellowribbon .m-search-container {
+  border-color: #264882;
+}
+
+/* Navigation */
+.apply.yellowribbon .u-navsite-level-1 a {
+  color: #D64B20;
+}
+
+.apply.yellowribbon .u-navsite-level-1 > li:hover > a,
+.apply.yellowribbon .u-navsite-level-1 > .u-navsite-open > a {
+  color: #000;
+}
+
+.apply.yellowribbon .u-navsite-level-1 > .u-navsite-open > a:hover {
+  background: #ece4b8;
+}
+
+.apply.yellowribbon .u-navsite-level-1 .u-navsite-level-2 a {
+  background: none;
+  color: #85792e;
+}
+
+.apply.yellowribbon .u-navsite-level-1 .u-navsite-level-2 > li > a:hover {
+  background: #cfc796;
+  color: #000;
+}
+
+.apply.yellowribbon .u-navsite-level-2 li.u-navsite-current a,
+.apply.yellowribbon .u-navsite-level-2 a:hover {
+  background: #264882;
+  color: #fff;
+}
+
+/* Intro */
+.apply.yellowribbon .introsec-container {
+  background: #FCE062;
+  position: relative;
+}
+
+.apply.yellowribbon .introsec-container:before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: 0;
+  bottom: 6px;
+  left: 0;
+  border: 1px solid yellow;
+}
+
+.apply.yellowribbon .introsec-container .sec-content {
+  margin-top: 32px;
+  margin-top: 2em;
+}
+
+.apply.yellowribbon .info-chunk {
+  border-color: #E6D367;
+  text-shadow: none;
+}
+
+.apply.yellowribbon .info-chunk a:hover {
+  color: #205859;
+}
+
+.apply.yellowribbon .introsec-container h5 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12.8px;
+  font-size: 0.8em;
+  /*	font-size: .8em;
+  */
+  letter-spacing: 1px;
+  color: #99905A;
+}
+
+/* Section: Why Vassar */
+.apply.yellowribbon .yellowribbon-why-vassar {
+  border-bottom: 1px dashed #a1ba56;
+}
+
+.apply.yellowribbon .yellowribbon-why-vassar .sec-content {
+  padding: 0;
+}
+
+.apply.yellowribbon .yellowribbon-why-vassar h3 {
+  color: #79A8B8;
+}
+
+/* Section: Admissions */
+.apply.yellowribbon .yellowribbon-admissions {
+  background: #C5DFE8;
+  position: relative;
+}
+
+.apply.yellowribbon .yellowribbon-admissions:before {
+  content: "";
+  position: absolute;
+  border: 1px dashed white;
+  border-right: none;
+  border-left: none;
+  top: 4px;
+  right: 0;
+  bottom: 4px;
+  left: 0;
+}
+
+/* FAQs */
+@media all and (min-width: 600px) {
+  .apply .m-search-container {
+    border: 1px solid white;
+    background: #a00;
+  }
+
+  .apply .u-masthead a i {
+    border-bottom: 1px solid #ffccbb;
+  }
+
+  .apply .u-masthead:hover a i {
+    border-bottom: 1px solid yellow;
+  }
+
+  .apply .m-search-container .m-search-submit {
+    color: #fff;
+  }
+
+  .apply .u-navsite-level-1 > li:hover > a {
+    background: #a20;
+  }
+
+  .apply .u-navsite-level-1 > li.u-navsite-open:hover > a {
+    background: #fed;
+    color: #000;
+  }
+
+  .apply .u-navsite-level-1 > li.u-navsite-open:hover > a:hover {
+    color: #997C5F;
+  }
+
+  .apply .u-navsite-level-1 > li:hover > a {
+    color: #fff;
+  }
+
+  .apply .u-navsite-level-1 > li.u-navsite-open {
+    background: #EBF9FA;
+    background: #fed;
+  }
+
+  .apply li:hover .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #aa0000;
+  }
+
+  .apply .shrink li:hover .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #aa0000;
+  }
+
+  .apply.frontpage .apply-frontpage-whichapplicant {
+    margin-top: 0;
+  }
+
+  .apply.frontpage .introsec-container {
+    padding: 3% 5% 1em 5%;
+  }
+
+  .apply.yellowribbon .m-search-container {
+    background: #264882;
+  }
+
+  .apply.yellowribbon .u-navsite-level-1 > li:hover {
+    background: #FCE062;
+  }
+
+  .apply.yellowribbon .u-navsite-level-1 > li:hover > a {
+    color: #fff;
+  }
+
+  .apply.yellowribbon .u-navsite-level-1 > li.u-navsite-open:hover > a {
+    color: #000;
+    background: #FAF1C8;
+  }
+
+  .apply.yellowribbon .u-navsite-level-1 > li.u-navsite-open:hover > a:hover {
+    color: #cfc796;
+  }
+
+  .apply.yellowribbon .u-navsite-level-1 li.u-navsite-open,
+  .apply.yellowribbon .u-navsite-level-1 li:hover .u-navsite-level-2 {
+    background: #FAF1C8;
+  }
+}
+@media all and (min-width: 1024px) {
+  .apply.yellowribbon .yellowribbon-why-vassar {
+    background: url("../images/apply-yellowribbon-westpoint.jpg") bottom right no-repeat;
+  }
+
+  .apply.faqs .l-side-image .l-twocol-column.secondcol {
+    margin-top: -288px;
+    margin-top: -18em;
+    /*	margin-top: -18em;
+    */
+  }
+}

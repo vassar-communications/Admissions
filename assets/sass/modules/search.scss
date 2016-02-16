@@ -1,0 +1,154 @@
+/* Vassar College Search Stylesheet
+ * v1.0
+ * Last Updated: 2012-06-12 
+ *
+ * Styles for Search.
+ * Only included it search module is turned on.
+ *
+ */
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+.m-search {
+  font: 0.9em Verdana, Helvetica, Arial, sans-serif;
+}
+
+@media all and (min-width: 600px) {
+  .m-search-field {
+    font-size: 12.8px;
+    font-size: 0.8em;
+    /*		font-size: .8em;
+    */
+  }
+}
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+@media screen {
+  	/* Search form
+        ========================================================================== */
+  .m-search-container {
+    display: block;
+    position: static;
+    overflow: hidden;
+    margin: 16px;
+    margin: 4%;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .m-search {
+    white-space: nowrap;
+    position: relative;
+    height: 4em;
+    /*		height: 4em;
+    */
+  }
+
+  .m-search input {
+    position: absolute;
+    height: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    margin: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background: transparent;
+    font-size: 22.4px;
+    font-size: 1.4em;
+    /*			font-size: 1.4em;
+    */
+    font-family: "proxima-nova";
+  }
+
+  .m-search-field {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 0.5em;
+    width: 75%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: #444;
+    overflow: visible;
+  }
+
+  .m-search-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 22.4px;
+    padding: 0 1em;
+    /*			padding: 0 1.4em;
+    */
+    border: 1px solid red;
+    background: rgba(0, 0, 0, 0.1) !important;
+  }
+}
+/*
+@media all and (min-width: 500px) {
+  .m-search-container {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1px 3px; }
+
+  .m-search {
+    height: 33.6px;
+    height: 2.1em;
+}
+
+ } */
+@media all and (min-width: 600px) {
+  .m-search-container {
+    position: absolute;
+    width: 12em;
+    right: 2em;
+    top: 3px;
+    z-index: 999;
+    display: block;
+    background: #eee;
+    margin: 0;
+    height: 2em;
+  }
+
+  .m-search {
+    height: inherit;
+    border: none;
+  }
+
+  .m-search input {
+    font-size: 12.8px;
+    font-size: 0.8em;
+    font-family: "Lucida Grande", serif;
+  }
+
+  .m-search-submit {
+    padding: 0;
+    width: 32px;
+    width: 4em;
+    visibility: hidden;
+  }
+
+  .m-search:hover .m-search-submit,
+  .m-search:focus .m-search-submit,
+  .m-search-field:focus + input + .m-search-submit {
+    visibility: visible;
+  }
+}
+/* ========================================================================
+   Color
+   ======================================================================== */
+/* Search
+	======================================================================== */

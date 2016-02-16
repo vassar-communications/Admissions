@@ -1,0 +1,67 @@
+
+
+/*
+	 If there is more than one value, create a list and perform equations on each value
+ 
+		 Create an empty list that we can dump values into
+		$pixel_values: ();
+ 
+		@each $value in $rems {
+			$pixel_values: append($pixel_values, $value * $base-font-multiplier * 16px);
+		}
+ 
+		 Return the property and its list of converted values
+		#{$property}: $pixel_values;
+ 
+	
+	
+@function rem-to-pixel ( $rems, $property: null, $keyword: null ) {
+
+	$string : null;
+	
+	@if $property {
+	
+		@if $keyword { 
+			$string : $property+':'+ $keyword; 
+		}
+		@else { 
+			$string : $property+':' + $rems * $base-font-multiplier * 16+'px;'
+		}
+		
+		@return unquote($string)
+			unquote($property+':' + $rems + 'rem;');
+			
+	}
+	@else {
+	
+		@if $keyword { 
+			$string : $keyword 
+		}
+		@else { 
+			$string : $rems * $base-font-multiplier * 16px
+		}
+
+		@return unquote($string);
+		
+	}
+}
+
+
+
+$base-font-multiplier : 1;
+
+@function rem-to-pixel ( $property, $rems, $keyword: null ) {
+
+	$string : null;
+	
+  	@if $keyword { $string : $keyword }
+  	@else { 
+  		$string : $property+':' + $rems * $base-font-multiplier * 16+'px;'
+	}
+	
+	@return unquote($string)
+	  		unquote($property+':' + $rems + 'rem;');
+	
+}
+
+*/

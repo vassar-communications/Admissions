@@ -1,0 +1,73 @@
+/* Vassar College Responsive Stylesheet
+ * v1.0
+ * Last Updated: 2012-10-19
+ *
+ * Generic styles for a responsive site.
+ * Handles:
+ * 	responsive images 
+ *		markup that's only included ina responsive site.
+ * Only included if responsive module is turned on.
+ *
+ */
+/* ========================================================================
+   Layout
+   ======================================================================== */
+@media screen {
+  img, embed, object, video {
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    /* fix for IE7 & IE8 */
+    max-width: 100%;
+    /* width\9: auto; /* IE8 Should be OK for 7 */
+    _width: 100%;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /**
+   * For small screens, accessing nav at the botom of markup
+   */
+  .ac-navanchor {
+    border: solid 1px transparent;
+    -moz-border-radius: .2em;
+    -webkit-border-radius: .2em;
+    border-radius: .2em;
+    display: inline-block;
+    height: 2.2rem;
+    line-height: 2.1em;
+    padding: 0 0.75em;
+    text-align: center;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    white-space: nowrap;
+    width: 14%;
+    z-index: 1;
+  }
+
+  .ac-navanchor-menu {
+    position: absolute;
+    right: 6%;
+    top: 1rem;
+  }
+
+  .ac-navanchor-top {
+    margin-top: 1rem;
+    /* margin-left:76%; */
+  }
+
+  /**
+   * Add at same breakpoint as non-linearized version where nav is no longer at the bottom
+   */
+  /* */
+}
+/* ========================================================================
+   Color
+   ======================================================================== */
+/**
+ * For small screens, accessing nav at the botom of markup
+ */

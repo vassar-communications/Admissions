@@ -1,0 +1,88 @@
+/* Links to videos */
+@media all and (min-width: 1024px) {
+  .image-positionedlinks {
+    position: relative;
+  }
+
+  .image-positionedlinks ul {
+    position: absolute;
+    overflow: visible;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .l-content .image-positionedlinks ul li:before {
+    content: "";
+  }
+
+  .image-positionedlinks ul li a {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-indent: -9999px;
+  }
+
+  .image-positionedlinks ul li a:after {
+    content: "\25B6" !important;
+    text-indent: 0px;
+    color: #fff;
+    line-height: 0;
+    padding: 12.8px 6.4px 9.6px 6.4px;
+    padding: 0.8em 0.4em 0.6em 0.4em;
+    /*	padding: .8em .4em .6em .4em;
+    */
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background: #f00;
+    border: 1px solid white;
+    font-size: 12.8px;
+    font-size: 0.8em;
+    /*	font-size: .8em;
+    */
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    /*	-moz-box-shadow: 0px 2px 4px rgba(0,0,0,.6);
+    	-webkit-box-shadow: 0px 2px 4px rgba(0,0,0,.6);
+    	box-shadow: 0px 2px 4px rgba(0,0,0,.6);
+    	*/
+  }
+
+  .image-positionedlinks:hover img {
+    opacity: 1;
+  }
+
+  .image-positionedlinks a {
+    border: none !important;
+  }
+
+  .l-twocol-column:hover .image-positionedlinks a {
+    background: rgba(255, 0, 0, 0.3);
+    transition: background 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    /*		-moz-transition: background .4s;  Firefox 4 */
+  }
+
+  .l-twocol-column:hover .image-positionedlinks a:hover:after {
+    background: #000;
+    color: #fff;
+    border-color: #f00;
+  }
+
+  .l-twocol-column:hover .image-positionedlinks a:after {
+    background: #fff;
+    color: #000;
+  }
+}

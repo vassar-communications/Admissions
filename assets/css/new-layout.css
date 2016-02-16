@@ -1,0 +1,350 @@
+/*
+ *
+ * ==========================================================================
+ * Layout
+ * ========================================================================== 
+ */
+/* BASIC
+ *************************************************************************** */
+@media screen {
+  /* HTML elements
+   * ========================================================================== */
+  body {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+  }
+
+  h2 + ul {
+    margin-top: 2em;
+  }
+
+  h3:first-child {
+    margin-top: 0;
+  }
+
+  html {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+  }
+
+  img {
+    /*	max-width: 100%; */
+    width: 100%;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  .l-main li {
+    margin-bottom: .4em;
+  }
+
+  /*	p:last-child {
+  		margin: 0;
+  	} */
+  table {
+    max-width: 100%;
+  }
+
+  /* Classes
+   * ========================================================================== */
+  .center-text {
+    text-align: center;
+  }
+
+  .border-bottom {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+
+  .button {
+    padding: 1em 2em;
+  }
+
+  .faq {
+    margin-bottom: 2em;
+  }
+
+  .faqs-list {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+  }
+
+  .figure img {
+    margin-bottom: .7em;
+  }
+
+  .figure img {
+    margin-bottom: 6.4px;
+    margin-bottom: 0.4em;
+    /*		margin-bottom: .4em;
+    */
+  }
+
+  .figure-right {
+    margin-left: 19.2px;
+    margin-left: 1.2em;
+  }
+
+  .figure-left {
+    margin-right: 19.2px;
+    margin-right: 1.2em;
+  }
+
+  .index-faqs {
+    margin: 0 0 4em 0;
+    padding: 0;
+  }
+
+  p.intro:last-child {
+    margin: 0;
+    padding: 0;
+  }
+
+  .m-alert {
+    padding: 1em;
+  }
+
+  .m-imagewithcaption p {
+    padding-bottom: .6em;
+  }
+
+  .m-imagewithcaption p:last-child {
+    margin: 0;
+  }
+
+  p.m-note {
+    /*		padding: .2em .6em; */
+    padding: 16px;
+    padding: 1em;
+    background: #fff;
+    margin-bottom: 1em;
+  }
+
+  .m-video {
+    padding: 1em;
+  }
+
+  .m-video h3, .m-video h4 {
+    padding: 0;
+    margin: 0 0 0.4em 0;
+  }
+
+  .m-video img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .m-video p {
+    margin: 0;
+  }
+
+  .sidebox {
+    position: fixed;
+    background: #888;
+    padding: 2%;
+    width: 10%;
+    top: 0;
+    right: 0;
+  }
+
+  .fullwidth {
+    width: 100%;
+  }
+
+  .nopadding {
+    padding: 0 !important;
+  }
+
+  .l-footer {
+    padding: 2% 2% 4% 4.5%;
+  }
+
+  .l-footer .vcard {
+    padding-top: 2%;
+  }
+
+  .l-main {
+    position: relative;
+  }
+
+  .center .sec-content {
+    width: 50%;
+  }
+
+  .center h3 {
+    text-align: center;
+  }
+
+  .sec-content {
+    /*		padding: 4%; */
+    /*		overflow: hidden; */
+  }
+
+  .l-twocol-column:first-of-type {
+    margin-bottom: 2em;
+  }
+
+  .introsec-container,
+  .subsec-container {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+    overflow: hidden;
+  }
+
+  .introsec-container {
+    padding: 3% 8% 1em 8%;
+  }
+
+  .subsec-container {
+    padding: 8%;
+  }
+
+  .subsec-container.jumplinks {
+    padding-top: 0;
+    padding-bottom: .75em;
+    margin: 0;
+  }
+
+  .jumplinks .sec-content {
+    /*		padding: .4em 0; */
+    /*    padding-top: 1.4em;
+        padding-bottom: 1em; */
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .jumplinks h3 {
+    margin: 0.3em 0.75em 0 0;
+    padding: 0;
+    float: left;
+  }
+
+  .jumplinks ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .image-bar {
+    width: 100%;
+    padding: 0;
+    margin: 4em 0;
+  }
+
+  .image-bar:last-child {
+    margin: 0;
+  }
+
+  .image-bar .sec-content {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .mod-width-65 {
+    width: 65%;
+  }
+
+  .mod-margin-right-15 {
+    margin-right: 0%;
+  }
+
+  .img-right {
+    float: right;
+    margin-left: 1em;
+  }
+
+  /* Navigation
+  ========================================================================== */
+  /* vcard
+   * ========================================================================== */
+}
+/* FULL-WIDTH
+ *************************************************************************** */
+/* Images 
+ * ========================================================================== */
+.has-image-33-right {
+  padding-right: 26%;
+  background-size: 36%;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+/*	.img-right-33 {
+		width: 33%;
+		float: right;
+	}*/
+/* Navigation responsiveness 
+ * ========================================================================== */
+/* Other modules
+ * ========================================================================== */
+/* Search
+----------------------------------------------------------------------------- */
+/* Info-chunk (The yellow sticky-notes)
+----------------------------------------------------------------------------- */
+.info-chunk {
+  padding: 4%;
+  margin-bottom: 1em;
+}
+
+.info-chunk h4 {
+  margin: 0 0 1em 0;
+}
+
+/* Index-list (The ruled lists that appear in yellow sticky-notes)
+----------------------------------------------------------------------------- */
+.index-list {
+  padding: 0;
+}
+
+ul.index-list li {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+}
+
+.index-list li em {
+  float: right;
+  font-style: normal;
+}
+
+/*.u-navsite-level-1>li>a {
+	font-size: 1.4em;
+}*/
+/*	List items with images in them
+	------------------------------ */
+.figureList li {
+  overflow: hidden;
+}
+
+.figureList li {
+  padding: 0 !important;
+  font-size: .9em;
+}
+
+.figureList p {
+  max-width: 85%;
+}
+
+.figureList li:before {
+  content: none !important;
+  margin: 0;
+}
+
+.figureList li .figure {
+  margin-right: 1.2em;
+}

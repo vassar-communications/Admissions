@@ -1,0 +1,132 @@
+@media all and (min-width: 1024px) {
+  .image-bar .caption {
+    margin: 16px 0 0 32px;
+    margin: 1em 0 0 2em;
+    /*        margin: 1em 0 0 2em;
+    */
+  }
+
+  .l-twocol {
+    overflow: hidden;
+  }
+
+  .l-twocol-column {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+    width: 49%;
+    float: left;
+    padding-right: 2%;
+  }
+
+  .l-twocol-column:last-child {
+    padding-right: 0;
+    padding-left: 2%;
+  }
+
+  .l-twocol-column.col60 {
+    width: 59%;
+  }
+
+  .l-twocol-column.col40 {
+    width: 39%;
+  }
+
+  .l-twocol-column.col70 {
+    width: 69%;
+  }
+
+  .l-twocol-column.col35 {
+    width: 34%;
+  }
+
+  .l-twocol-column.col30 {
+    width: 29%;
+  }
+
+  .sec-content {
+    /*		margin: 0 auto 0 4%; */
+    max-width: 1124px;
+    /*		padding: 2% 0%; */
+  }
+
+  .l-side-image,
+  .l-side-image .l-twocol-column {
+    margin: 0;
+    /*        padding: 0; */
+  }
+
+  .l-side-image .sec-content {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .l-side-image .l-twocol-column.firstcol {
+    /* padding: 0 2% 0 4%; */
+    float: left;
+  }
+
+  .l-twocol-column:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .l-side-image h3 {
+    width: 30%;
+  }
+
+  .l-side-image .l-twocol-column.firstcol h3 {
+    /* margin: 0; */
+    width: auto;
+  }
+
+  .l-side-image .l-twocol-column.secondcol {
+    margin-top: -224px;
+    margin-top: -18em;
+    /*	        margin-top: -14em;
+    */
+    float: right;
+  }
+
+  .l-side-image .l-twocol-column.secondcol img {
+    width: auto;
+    max-width: none;
+  }
+
+  .l-side-image .l-twocol-column.secondcol .caption,
+  .caption {
+    margin-top: 12.8px;
+    margin-top: 0.8em;
+    margin-bottom: 16px;
+    margin-bottom: 1em;
+    /*        margin-top: .8em;
+            margin-bottom: 1em;
+    		  */
+    width: 80%;
+  }
+
+  .l-twocol-column:first-child .caption {
+    width: 100%;
+  }
+
+  .l-side-image .sec-content > .u-pagetitle {
+    width: 38%;
+  }
+
+  .l-side-image .secondcol.horiz-img {
+    margin-top: 0;
+  }
+
+  .l-side-image .secondcol.horiz-img img {
+    width: 100%;
+  }
+
+  .l-main {
+    min-height: 768px;
+  }
+}

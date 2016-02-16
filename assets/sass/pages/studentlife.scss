@@ -1,0 +1,1273 @@
+/* STUDENT LIFE */
+/* Masthead */
+
+.student-life .u-masthead a:before {
+  border-color: #000;
+}
+
+.student-life .m-search-container {
+  border-color: #000;
+}
+
+/* STUDENT LIFE FRONTPAGE */
+/* Masthead */
+
+
+.student-life.frontpage .u-masthead {
+	background: #fff;
+}
+.student-life.frontpage .u-masthead a {
+	color: #3cf;
+	text-shadow: none;
+}
+@media all and (min-width: 600px) {
+	.student-life.frontpage .u-masthead {
+		background: none;
+	}
+	.student-life.frontpage .u-masthead > a,
+	.student-life.frontpage .u-masthead > i {
+		background: #fff;
+	}
+	.student-life.frontpage .u-masthead > a,
+	.student-life.frontpage .u-masthead > i,
+	.student-life.frontpage .u-masthead > i a {
+		color: #3cf;
+	}
+	.student-life.frontpage .u-masthead > a:hover,
+	.student-life.frontpage .u-masthead > i:hover {
+		background: #3cf;
+	}
+	.student-life.frontpage .u-masthead > a:hover,
+	.student-life.frontpage .u-masthead > i:hover,
+	.student-life.frontpage .u-masthead > i:hover a {
+		color: #fff;
+	}
+}
+.student-life.frontpage .u-masthead {
+	border-bottom: 4px solid #fff;
+}
+
+/* Type */
+.student-life.frontpage h2 {
+  color: #000;
+}
+
+.student-life.frontpage .l-content a {
+  color: #00a1d6;
+}
+
+.student-life.frontpage .l-content a:hover {
+  color: black;
+}
+
+.student-life .l-footer {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.student-life.frontpage body:before {
+  background-image: none;
+  border-color: transparent;
+}
+
+.student-life.frontpage .studentlife-intro {
+  padding-bottom: 6em;
+}
+
+.student-life.frontpage .studentlife-intro .sec-content {
+  overflow: visible;
+  margin: 0 auto 0 4%;
+}
+
+.student-life.frontpage .studentlife-intro .sec-content .l-twocol-column:first-child {
+  position: relative;
+  padding-right: 3em;
+}
+
+.student-life.frontpage .studentlife-intro .sec-content .l-twocol-column:first-child:after {
+  content: "";
+  width: 970px;
+  height: 1100px;
+  left: 100%;
+  top: -65px;
+  position: absolute;
+  background: url("../images/contact-askstudent-students.jpg") top left no-repeat;
+}
+
+/* Sections box */
+.student-life.frontpage .studentlife-sectionsbox {
+  padding: 0;
+  margin: 0 0 2em 0;
+  overflow: hidden;
+}
+
+.student-life.frontpage .studentlife-sectionsbox li {
+  padding: 0;
+  border: none;
+}
+
+.student-life.frontpage .studentlife-sectionsbox li a {
+  border: none;
+  border-top: 1px solid #eeeeee;
+  padding: 1.4em 0 1.4em 4.2em;
+  font-size: 1.2em;
+  display: block;
+  clear: both;
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+.student-life.frontpage .studentlife-sectionsbox li:before {
+  content: "";
+}
+
+.student-life.frontpage .student-orgs a {
+  background: url("../images/studentlife_studentorgs.png");
+}
+
+.student-life.frontpage .campus-activities a {
+  background: url("../images/studentlife_events.png");
+}
+
+.student-life.frontpage .res-life-new a {
+  background: url("../images/studentlife_dorms.png");
+}
+
+.student-life.frontpage .campus-dining a {
+  background: url("../images/studentlife_dining.png");
+}
+
+.student-life.frontpage .athletics-fitness a {
+  background: url("../images/studentlife_athletics.png");
+}
+
+.student-life.frontpage .student-services a {
+  background: url("../images/studentlife_services.png");
+}
+
+.student-life.frontpage .image-positionedlinks a.link1 {
+  width: 196px;
+  height: 274px;
+  top: 3px;
+  left: 1px;
+}
+
+.student-life.frontpage .image-positionedlinks a.link2 {
+  width: 195px;
+  height: 294px;
+  top: 565px;
+  left: 0px;
+}
+
+.student-life.frontpage .image-positionedlinks a.link3 {
+  width: 200px;
+  height: 298px;
+  top: 270px;
+  left: 196px;
+}
+
+.student-life.frontpage .image-positionedlinks a.link4 {
+  width: 196px;
+  height: 298px;
+  top: 269px;
+  left: 610px;
+}
+
+/* STUDENT ORGANIZATIONS */
+.student-life.student-orgs body:before {
+  background-image: none;
+  border-color: transparent;
+}
+
+
+
+.student-life.student-orgs  .u-masthead {
+	background: #ff4e00;
+}
+.student-life.student-orgs  .u-masthead a {
+	color: #fff;
+	text-shadow: none;
+}
+@media all and (min-width: 600px) {
+	.student-life.student-orgs  .u-masthead {
+		background: none;
+	}
+	.student-life.student-orgs  .u-masthead > a,
+	.student-life.student-orgs  .u-masthead > i {
+		background: #fff;
+	}
+	.student-life.student-orgs  .u-masthead > a,
+	.student-life.student-orgs  .u-masthead > i,
+	.student-life.student-orgs  .u-masthead > i a {
+		color: #ff4e00;
+	}
+	.student-life.student-orgs  .u-masthead > a:hover,
+	.student-life.student-orgs  .u-masthead > i:hover {
+		background: #ff4e00;
+	}
+	.student-life.student-orgs  .u-masthead > a:hover,
+	.student-life.student-orgs  .u-masthead > i:hover,
+	.student-life.student-orgs  .u-masthead > i:hover a {
+		color: #fff;
+	}
+}
+.student-life.student-orgs .u-masthead {
+	border-bottom: 4px solid #fff;
+}
+
+/* Sidebar */
+.student-life.student-orgs .u-navsite-level-1 > li.u-navsite-open > a {
+  color: #000;
+}
+
+.student-life.student-orgs .u-navsite-level-1 > li.u-navsite-open > a:hover {
+  background: none;
+  color: #ff4e00;
+}
+
+.student-life.student-orgs .u-navsite-level-1 > li:hover {
+  background: #fff;
+}
+
+.student-life.student-orgs .u-navsite-level-1 > .u-navsite-open {
+  background: #fff;
+  border-right: 1px dashed #f65200;
+}
+
+.student-life.student-orgs .u-navsite-level-2 > .u-navsite-current > a,
+.student-life.student-orgs .u-navsite-level-2 > li > a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.student-life.student-orgs .u-navsite-level-2 > li > a {
+  color: #000;
+}
+
+.student-life.student-orgs a {
+  color: #ff4e00;
+}
+
+.student-life.student-orgs a:hover {
+  color: black;
+}
+
+/* Imagery */
+.student-life.student-orgs .introsec-container .sec-content {
+  overflow: visible;
+}
+
+/* CAMPUS ACTIVITIES */
+.student-life.campus-activities a {
+  color: #0ff;
+}
+
+.student-life.campus-activities a:hover {
+  color: #fff;
+}
+
+.student-life.campus-activities body:before {
+  background-image: none;
+  border-color: transparent;
+}
+
+/* Masthead */
+
+
+
+@media all and (min-width: 600px) {
+.student-life.campus-activities  .u-masthead > a:hover,
+.student-life.campus-activities  .u-masthead > i:hover a {
+		background: rgba(0, 255, 255, 0.2);
+	}
+.student-life.campus-activities  .u-masthead > a:hover,
+.student-life.campus-activities  .u-masthead > i:hover,
+.student-life.campus-activities  .u-masthead > i:hover a {
+		color: #fff;
+	}
+}
+
+
+
+.student-life.campus-activities .u-masthead,
+.student-life.campus-activities .u-masthead a {
+  background: #021e45;
+  background: #000;
+  border-bottom: 1px solid #00aaaa;
+}
+
+.student-life.campus-activities .ac-navanchor-menu:before {
+  color: #00aaaa;
+}
+
+.student-life.campus-activities .u-masthead a:before {
+  height: 3px;
+  margin-top: -2px;
+  border: 1px solid #00aaaa;
+  background: #000;
+}
+
+.student-life.campus-activities .u-masthead a {
+  color: #fff;
+  text-shadow: 0 0 8px cyan, 0 0 8px cyan, 0 0 8px cyan;
+}
+
+.student-life.campus-activities .u-masthead a i {
+  border-color: #0aa;
+}
+
+/* Search */
+.student-life.campus-activities .m-search-container {
+  background: #033;
+  border: 1px solid #00aaaa;
+}
+
+.student-life.campus-activities .m-search-container input {
+  color: #00aaaa;
+}
+
+/* Nav */
+.student-life.campus-activities .u-navsite-level-1 > li > a {
+  color: #0aa;
+}
+
+.student-life.campus-activities .u-navsite-level-1 > li.u-navsite-open:hover {
+  background: none;
+}
+
+.student-life.campus-activities .u-navsite-level-1 > li:hover > a {
+  color: #000;
+}
+
+.student-life.campus-activities .u-navsite-level-1 > li.u-navsite-open > a {
+  color: #fff;
+}
+
+.student-life.campus-activities .u-navsite-level-1 > li:hover .u-navsite-level-2 a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.student-life.campus-activities .u-navsite-level-1 > li.u-navsite-open .u-navsite-level-2 > li > a {
+  color: #0ad;
+  color: #fff;
+}
+
+.student-life.campus-activities .u-navsite-level-1 > .u-navsite-open {
+  border-color: #044;
+}
+
+.student-life.campus-activities .u-navsite-level-1 > li.u-navsite-open .u-navsite-level-2 > li:hover > a {
+  background: #004444 !important;
+}
+
+.student-life.campus-activities .u-navsite-level-2 > li:hover > a {
+  background: #004444 !important;
+}
+
+.student-life.campus-activities .u-navsite-level-1 > li.u-navsite-open .u-navsite-level-2 > .u-navsite-current > a,
+.student-life.campus-activities .u-navsite-level-1 > li.u-navsite-open .u-navsite-level-2 > li > a:hover {
+  background: rgba(0, 255, 255, 0.2);
+  color: #fff;
+}
+
+.student-life.campus-activities .u-navsite-level-1 > li.u-navsite-open .u-navsite-level-2 > .u-navsite-current > a {
+  border: 1px solid #00aaaa;
+}
+
+.student-life.campus-activities .socialgraces {
+  border-color: #0aa;
+}
+
+.student-life.campus-activities .u-navsite-level-1 li:hover .u-navsite-level-2 a {
+  color: #fff;
+}
+
+.student-life.campus-activities {
+  background: #faaa00;
+}
+
+.student-life.campus-activities {
+  background: black;
+}
+
+.student-life.campus-activities .introsec-container .sec-content {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 2%;
+}
+
+.student-life.campus-activities .introsec-container .sec-content p {
+  color: #eee;
+  text-shadow: 0 1px 2px black;
+}
+
+/* Footer */
+.student-life.campus-activities .l-footer {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.student-life.campus-activities .l-footer .vcard {
+  border: none;
+  color: #aaa;
+}
+
+.student-life.campus-activities .l-footer .vcard a {
+  color: #fff;
+}
+
+/* RESIDENTIAL LIFE */
+.student-life.res-life-new .u-navsite {
+  background: #fff;
+}
+
+.student-life.res-life-new .m-search-submit {
+  color: #fff;
+}
+
+.student-life.res-life-new body:before {
+  background-image: url("../images/sideshadow.png") repeat-y !important;
+  border-color: #8C380E;
+}
+
+
+/*	Masthead
+	-------- */
+
+.student-life.res-life-new  .u-masthead {
+	background: #59250B;
+}
+.student-life.res-life-new  .u-masthead a {
+	color: #fff;
+	text-shadow: none;
+}
+@media all and (min-width: 600px) {
+	.student-life.res-life-new  .u-masthead {
+		background: none;
+	}
+	.student-life.res-life-new  .u-masthead > a,
+	.student-life.res-life-new  .u-masthead > i {
+		background: #fff;
+	}
+	.student-life.res-life-new  .u-masthead > a,
+	.student-life.res-life-new  .u-masthead > i,
+	.student-life.res-life-new  .u-masthead > i a {
+		color: #59250B;
+	}
+	.student-life.res-life-new  .u-masthead > a:hover,
+	.student-life.res-life-new  .u-masthead > i:hover {
+		background: #59250B;
+	}
+	.student-life.res-life-new  .u-masthead > a:hover,
+	.student-life.res-life-new  .u-masthead > i:hover,
+	.student-life.res-life-new  .u-masthead > i:hover a {
+		color: #fff;
+	}
+}
+.student-life.res-life-new .u-masthead {
+	border-bottom: 4px solid #fff;
+}
+.student-life.res-life-new .l-footer {
+  color: #91876E;
+}
+
+.student-life.res-life-new .requestInfo p {
+  border-color: #CFC5B0;
+}
+
+.student-life.res-life-new .l-footer .vcard {
+  border-color: #B0A58D;
+}
+
+/* Nav */
+.student-life.res-life-new a {
+  color: #8c380e;
+}
+
+.student-life.res-life-new a:hover {
+  color: #000;
+}
+
+.student-life.res-life-new .u-navsite-level-2 a {
+  color: #8c380e;
+}
+
+.student-life.res-life-new li:hover > .u-navsite-level-2 > li > a:hover,
+.student-life.res-life-new li > .u-navsite-level-2 > li.u-navsite-current > a,
+.student-life.res-life-new li.u-navsite-open .u-navsite-level-2 > li.u-navsite-open > a,
+.student-life.res-life-new li.u-navsite-open .u-navsite-level-2 > li > a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.student-life.res-life-new .shrink li:hover .u-navsite-level-2 {
+  background: #59250B;
+  border: 1px solid white;
+}
+
+.student-life.res-life-new .u-navsite-level-2 li.u-navsite-current a {
+  background: #000;
+  color: #fff;
+}
+
+/* Type */
+/* Imagery */
+.student-life.res-life-new .introsec-container .sec-content {
+  overflow: visible;
+}
+
+.student-life.res-life-new .l-twocol-column.secondcol img {
+  border: none;
+}
+
+.student-life.res-life-new {
+  background: #F2E7CE;
+  background-image: none !important;
+}
+
+.student-life.res-life-new .l-twocol-column.secondcol {
+  right: 0;
+}
+
+/* CAMPUS DINING */
+.student-life.campus-dining body:before {
+  background-image: none;
+  border-color: transparent;
+}
+
+
+/*	Masthead
+	-------- */
+
+.student-life.campus-dining  .u-masthead {
+	background: #99bf00;
+}
+.student-life.campus-dining  .u-masthead a {
+	color: #fff;
+	text-shadow: none;
+}
+@media all and (min-width: 600px) {
+	.student-life.campus-dining  .u-masthead {
+		background: none;
+	}
+	.student-life.campus-dining  .u-masthead > a,
+	.student-life.campus-dining  .u-masthead > i {
+		background: #fff;
+	}
+	.student-life.campus-dining  .u-masthead > a,
+	.student-life.campus-dining  .u-masthead > i,
+	.student-life.campus-dining  .u-masthead > i a {
+		color: #99bf00;
+	}
+	.student-life.campus-dining  .u-masthead > a:hover,
+	.student-life.campus-dining  .u-masthead > i:hover {
+		background: #99bf00;
+	}
+	.student-life.campus-dining  .u-masthead > a:hover,
+	.student-life.campus-dining  .u-masthead > i:hover,
+	.student-life.campus-dining  .u-masthead > i:hover a {
+		color: #fff;
+	}
+}
+.student-life.campus-dining .u-masthead {
+	border-bottom: 4px solid #fff;
+}
+.student-life.campus-dining .l-content a {
+  color: #819c00;
+}
+
+.student-life.campus-dining .l-content a:hover {
+  color: #000;
+}
+
+/* Nav */
+.student-life.campus-dining .u-navsite-level-1 > li.u-navsite-open > a {
+  color: #000;
+  text-shadow: none;
+}
+
+.student-life.campus-dining .u-navsite-level-1 > .u-navsite-open {
+	background: #fff;
+	border-right: 1px dashed #99bf00;
+}
+
+.student-life.campus-dining .u-navsite-level-1 > li:hover > a {
+  color: #000;
+  text-shadow: none;
+}
+
+.student-life.campus-dining .u-navsite-level-1 > .u-navsite-open > a:hover {
+  background: none;
+  color: #fff;
+}
+
+.student-life.campus-dining li.u-navsite-open:hover > .u-navsite-level-2 {
+  background: none;
+}
+
+.student-life.campus-dining li:hover > .u-navsite-level-2 > li > a:hover,
+.student-life.campus-dining li > .u-navsite-level-2 > li.u-navsite-current > a {
+  background: #000;
+  color: #fff;
+}
+
+.student-life.campus-dining .u-navsite-level-2 > .u-navsite-open > a,
+.student-life.campus-dining .u-navsite-level-2 > li > a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.student-life.campus-dining .u-navsite-level-2 a {
+  font-weight: 500;
+}
+
+/* ATHLETICS & FITNESS */
+.student-life.athletics-fitness body:before {
+  background-image: none;
+  border-color: transparent;
+}
+
+.student-life.athletics-fitness a {
+  color: #b50956;
+}
+
+.student-life.athletics-fitness a:hover {
+  color: black;
+}
+
+.student-life.athletics-fitness .video {
+  margin-top: 2em;
+}
+
+/* Masthead */
+
+.student-life.athletics-fitness .u-masthead {
+	background: #8C003F;
+}
+.student-life.athletics-fitness .u-masthead a {
+	color: #fff;
+	text-shadow: none;
+}
+@media all and (min-width: 600px) {
+	.student-life.athletics-fitness .u-masthead {
+		background: none;
+	}
+	.student-life.athletics-fitness .u-masthead > a,
+	.student-life.athletics-fitness .u-masthead > i {
+		background: #fff;
+	}
+	.student-life.athletics-fitness .u-masthead > a,
+	.student-life.athletics-fitness .u-masthead > i,
+	.student-life.athletics-fitness .u-masthead > i a {
+		color: #8C003F;
+	}
+	.student-life.athletics-fitness .u-masthead > a:hover,
+	.student-life.athletics-fitness .u-masthead > i:hover {
+		background: #8C003F;
+	}
+	.student-life.athletics-fitness .u-masthead > a:hover,
+	.student-life.athletics-fitness .u-masthead > i:hover,
+	.student-life.athletics-fitness .u-masthead > i:hover a {
+		color: #fff;
+	}
+}
+.student-life.athletics-fitness .u-masthead {
+	border-bottom: 4px solid #fff;
+}
+
+
+/* Nav */
+.student-life.athletics-fitness .u-navsite-level-1 > li > a {
+  color: #fcc;
+  color: #d68d8c;
+}
+
+.student-life.athletics-fitness .u-navsite-level-1 > li.u-navsite-open > a,
+.student-life.athletics-fitness .u-navsite-level-1 > li:hover.u-navsite-open > a {
+  color: #E01B6A;
+}
+
+.student-life.athletics-fitness .u-navsite-level-1 > li.u-navsite-open > a:hover {
+  color: #000;
+}
+/*
+.student-life.athletics-fitness .u-navsite-level-1 > li.u-navsite-open > a:hover,
+.student-life.athletics-fitness .u-navsite-level-1 > li > a:hover {
+  background: #fff;
+}*/
+
+.student-life.athletics-fitness .u-navsite-level-1 > li:hover > a {
+  color: #000;
+}
+
+.student-life.athletics-fitness li.u-navsite-open > .u-navsite-level-2 > li > a {
+  color: #000;
+}
+
+.student-life.athletics-fitness li.u-navsite-open:hover > .u-navsite-level-2 {
+  background: none;
+}
+
+.student-life.athletics-fitness li.u-navsite-open:hover > .u-navsite-level-2 > li > a {
+  color: #000;
+}
+
+.student-life.athletics-fitness li.u-navsite-open > .u-navsite-level-2 > li.u-navsite-current > a:hover,
+.student-life.athletics-fitness li.u-navsite-open > .u-navsite-level-2 > li.u-navsite-current > a,
+.student-life.athletics-fitness li:hover > .u-navsite-level-2 > li > a:hover {
+  background: #fcc;
+  color: #8C003F;
+}
+
+.student-life.athletics-fitness .u-navsite-level-1 > .u-navsite-open {
+  background: #fff;
+}
+
+/* STUDENT SERVICES */
+.student-life.student-services body:before {
+  background-image: none;
+  border-color: transparent;
+}
+
+.student-life.student-services a {
+  color: #1f88e6;
+}
+
+.student-life.student-services a:hover {
+  color: black;
+}
+
+
+/* Masthead */
+
+.student-life.student-services .u-masthead {
+	background: #1f88e6;
+}
+.student-life.student-services .u-masthead a {
+	color: #fff;
+	text-shadow: none;
+}
+@media all and (min-width: 600px) {
+	.student-life.student-services .u-masthead {
+		background: none;
+	}
+	.student-life.student-services .u-masthead > a,
+	.student-life.student-services .u-masthead > i {
+		background: #fff;
+	}
+	.student-life.student-services .u-masthead > a,
+	.student-life.student-services .u-masthead > i,
+	.student-life.student-services .u-masthead > i a {
+		color: #1f88e6;
+	}
+	.student-life.student-services .u-masthead > a:hover,
+	.student-life.student-services .u-masthead > i:hover {
+		background: #1f88e6;
+	}
+	.student-life.student-services .u-masthead > a:hover,
+	.student-life.student-services .u-masthead > i:hover,
+	.student-life.student-services .u-masthead > i:hover a {
+		color: #fff;
+	}
+}
+.student-life.student-services .u-masthead {
+	border-bottom: 4px solid #fff;
+}
+
+/* Nav */
+.student-life.student-services .u-navsite-level-1 > li > a {
+  color: #a8d6ff;
+}
+
+.student-life.student-services .u-navsite-level-1 > li.u-navsite-open > a {
+  color: #000;
+}
+
+/*
+.student-life.student-services .u-navsite-level-1 > li.u-navsite-open > a:hover,
+.student-life.student-services .u-navsite-level-1 > li:hover > a {
+  background: #fff;
+  color: #000;
+} */
+
+.student-life.student-services li.u-navsite-open > .u-navsite-level-2 > li > a {
+  color: #000;
+}
+
+.student-life.student-services li.u-navsite-open:hover > .u-navsite-level-2 {
+  background: none;
+}
+
+.student-life.student-services li.u-navsite-open:hover > .u-navsite-level-2 > li > a {
+  color: #000;
+}
+
+.student-life.student-services li.u-navsite-open:hover > .u-navsite-level-2 > li.u-navsite-current > a,
+.student-life.student-services li.u-navsite-open:hover > .u-navsite-level-2 > li:hover > a {
+  color: #fff;
+}
+
+.student-life.student-services li.u-navsite-open:hover > a {
+  color: #000;
+}
+
+.student-life.student-services li:hover > .u-navsite-level-2 > li > a,
+.student-life.student-services li.u-navsite-open > .u-navsite-level-2 > li > a:hover {
+  color: #000;
+}
+
+.student-life.student-services li:hover > .u-navsite-level-2 > li > a:hover {
+  background: #1f88e6;
+  color: #fff;
+}
+
+.student-life.student-services li:hover > .u-navsite-level-2 > li > a:hover,
+.student-life.student-services li.u-navsite-open > .u-navsite-level-2 > li.u-navsite-current > a {
+  background: #000;
+  color: #fff;
+}
+
+.student-life.student-services .u-navsite-level-1 > .u-navsite-open {
+  background: #fff;
+  border-top: 1px dashed rgba(255, 255, 255, 0.4);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.4);
+	border-right: 1px dashed #1f88e6;
+}
+
+
+/*
+@media all and (min-width: 400px) {
+  .student-life.res-life-new h2 {
+    background: url("../images/studentlife_studentorgs.png") 0 0.6em no-repeat;
+    padding: 0.45em 0 0.4em 1.5em;
+	}
+
+  .student-life.campus-activities h2 {
+    background: url("../images/studentlife_events.png") 0 0.6em no-repeat;
+    padding: 0.4em 0 0.4em 1.4em;
+	}
+  .student-life.student-services h2 {
+    background: url("../images/studentlife_services.png") 0 0.6em no-repeat;
+    padding: 0.4em 0 0.4em 1.4em;
+	}
+}
+*/
+/* Search */
+@media all and (min-width: 600px) {
+  .student-life .m-search-container {
+    background: #000;
+    border: 1px solid #888888;
+  }
+
+  .student-life .u-navsite-level-1 li:hover .u-navsite-level-2 {
+    border: 1px solid white;
+    -moz-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .student-life .u-navsite-level-1 > li.u-navsite-open:hover > .u-navsite-level-2 {
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .student-life .shrink .u-navsite-level-1 > li:hover > .u-navsite-level-2 {
+    -moz-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .student-life .u-navsite-level-1 > li > a {
+    color: #fff;
+  }
+
+  .student-life .u-navsite-level-1 > li:hover {
+    background: #fff;
+  }
+
+  .student-life .u-navsite-level-1 > li:hover a {
+    color: #000;
+  }
+
+  .student-life.frontpage .studentlife-sectionsbox li {
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    width: 50%;
+    float: left;
+  }
+
+  .student-life.frontpage .studentlife-sectionsbox li a {
+    font-size: 1em;
+    border: none;
+  }
+
+  .student-life.frontpage .studentlife-sectionsbox li:nth-child(2n+2) a {
+    background-position: 10px 10px;
+    padding-left: 5em;
+  }
+
+  .student-life.frontpage .studentlife-sectionsbox li:nth-child(2) a,
+  .student-life.frontpage .studentlife-sectionsbox li:nth-child(4) a,
+  .student-life.frontpage .studentlife-sectionsbox li:nth-child(6) a {
+    border-left: 1px solid #eeeeee;
+  }
+
+  .student-life.frontpage .studentlife-sectionsbox li:nth-child(1):after,
+  .student-life.frontpage .studentlife-sectionsbox li:nth-child(3):after {
+    content: "";
+    position: absolute;
+    /*    top: 0; */
+    bottom: 0;
+    width: 200%;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li.u-navsite-open > a {
+    background: #000;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li > a {
+    background: #3cf;
+    color: #fff;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li {
+    border: none;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li > a {
+    color: #fff;
+    background: none;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li:hover {
+    background: #fff;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li:hover a {
+    color: #000;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li.u-navsite-open > a {
+    color: #000;
+    background: none;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li.u-navsite-open > a:hover {
+    color: #3cf;
+  }
+
+  .student-life.frontpage .u-navsite-level-2 > li > a:hover {
+    color: white;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li.u-navsite-open {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    background: #fff;
+    border-right: 1px dashed #33ccff;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 li.u-navsite-open:hover .u-navsite-level-2 {
+    border: none;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li:hover > .u-navsite-level-2 {
+    background: #fff;
+    border-color: #3cf;
+  }
+
+  .student-life.frontpage .u-navsite-level-1 > li:hover > .u-navsite-level-2 > li > a:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  .student-life.frontpage .l-main,
+  .student-life.frontpage .l-footer {
+    margin-left: 0;
+    border-left: 208px solid #33ccff;
+    border-left: 13em solid #33ccff;
+  }
+  .student-life.student-orgs .l-main,
+  .student-life.student-orgs .l-footer {
+    margin-left: 0;
+    border-left: 208px solid #ff4e00;
+    border-left: 13em solid #ff4e00;
+  }
+  .student-life.student-orgs .u-navsite-level-1 > li:hover > a {
+    color: #000;
+  }
+
+  .student-life.student-orgs .u-navsite-level-1 > .u-navsite-open {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+  }
+
+  .student-life.student-orgs li:hover .u-navsite-level-2,
+  .student-life.student-orgs .shrink .u-navsite-level-1 > li:hover > .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #f65200;
+  }
+
+  .student-life.campus-activities .u-masthead {
+    border: 1px solid #00aaaa;
+  }
+
+  .student-life.campus-activities .u-masthead:hover {
+    background: #033;
+    border-color: #aff;
+  }
+
+  .student-life.campus-activities .u-masthead:hover a:before {
+    height: 3px;
+    margin-top: -2px;
+    border: 1px solid #aaffff;
+    background: #033;
+  }
+
+  .student-life.campus-activities .u-navsite-level-1 > li:hover {
+    background: #0aa;
+  }
+
+  .student-life.campus-activities .u-navsite-level-1 > .u-navsite-open {
+    background-image: url("../images/studentlife_reslife_sidegrad.png");
+    border-top: 1px dashed #00aaaa;
+    border-bottom: 1px dashed #00aaaa;
+  }
+
+  .student-life.campus-activities .u-navsite-level-1 > li.u-navsite-open .u-navsite-level-2 > li > a {
+    color: #6ff;
+  }
+
+  .student-life.campus-activities .u-navsite-level-1 > li.u-navsite-open .u-navsite-level-2 > .u-navsite-current > a {
+    border-left: none;
+  }
+
+  .student-life.campus-activities .u-navsite-level-1 li.u-navsite-open:hover .u-navsite-level-2 {
+    border: none;
+  }
+
+  .student-life.campus-activities .shrink .u-navsite-level-1 > li:hover > a {
+    background: #0aa;
+  }
+
+  .student-life.campus-activities .shrink .u-navsite-level-1 li:hover .u-navsite-level-2,
+  .student-life.campus-activities .u-navsite-level-1 li:hover .u-navsite-level-2 {
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid #00aaaa;
+  }
+
+  .student-life.campus-activities .u-navsite-level-1 li.u-navsite-open:hover .u-navsite-level-2 {
+    background: url("../images/studentlife_reslife_sidegrad.png") repeat-y;
+  }
+
+  .student-life.campus-activities {
+    background-color: #000;
+    background-image: url("../images/studentlife_reslife_sidegrad.png"), url("../images/studentlife-events-bg.jpg");
+    background-position: top left, top left;
+    background-repeat: repeat-y, no-repeat;
+    background-size: auto, 100%;
+  }
+
+  .student-life.campus-activities .l-footer {
+    margin-top: 20em;
+  }
+
+  .student-life.campus-activities .l-footer {
+    margin-left: 0;
+    border-left: 20em solid rgba(0, 0, 0, 0.3);
+  }
+
+  .student-life.res-life-new .u-navsite-level-1 > .u-navsite-open {
+    background: #F0E3D5;
+  }
+  .student-life.res-life-new .u-navsite-level-1 > li > a {
+    color: #ffa;
+  }
+
+  .student-life.res-life-new .u-navsite-level-1 > .u-navsite-open > a,
+  .student-life.res-life-new .u-navsite-level-1 > li:hover > a {
+    color: #000;
+  }
+
+  .student-life.res-life-new .u-navsite-level-1 > .u-navsite-open {
+    background: #fff;
+    border-color: #fff;
+  }
+
+  .student-life.res-life-new li:hover .u-navsite-level-2 {
+    background: #59250B;
+  }
+
+  .student-life.res-life-new li.u-navsite-open:hover .u-navsite-level-2 {
+    background: inherit;
+  }
+
+  .student-life.res-life-new li:hover .u-navsite-level-2 a {
+    color: #fff;
+  }
+
+  .student-life.res-life-new li.u-navsite-open:hover .u-navsite-level-2 a {
+    color: #59250B;
+  }
+
+  .student-life.res-life-new .u-navsite-level-2 a:hover {
+    background: #8c380e;
+  }
+
+  .student-life.res-life-new li.u-navsite-open:hover .u-navsite-level-2 li.u-navsite-current a {
+    color: #fff;
+  }
+
+  .student-life.res-life-new .l-main,
+  .student-life.res-life-new .l-footer {
+    margin-left: 0;
+    border-left: 208px solid #59250b;
+    border-left: 13em solid #59250b;
+  }
+
+  .student-life.res-life-new .u-navsite {
+    background: none;
+  }
+
+  /*	.student-life.res-life-new h2 {
+  		background: url("../images/studentlife_dorms.png") 0 0.6em no-repeat;
+  		padding: 0.6em 0 0.4em 1.6em;
+  		text-shadow: 0 0 4px #ffd, 0 0 14px #ffd, 0 0 40px #fff, 0 0 140px #fff, 0 0 40px #fff;
+  	}
+  */
+  .student-life.campus-dining .l-main,
+  .student-life.campus-dining .l-footer {
+    margin-left: 0;
+    border-left: 13em solid #99bf00;
+  }
+
+
+  /*	.student-life.campus-dining h2 {
+  		background: url("../images/studentlife_dining.png") 0 0.6em no-repeat;
+  		padding: 0.6em 0 0.4em 1.6em;
+  	}
+  */
+  .student-life.campus-dining .u-navsite-level-1 > li > a {
+    color: #fff;
+  }
+
+  .student-life.campus-dining li:hover > .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #99bf00;
+  }
+
+  .student-life.campus-dining .shrink li.u-navsite-open:hover > .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #99bf00;
+  }
+
+  .student-life.athletics-fitness .l-main,
+  .student-life.athletics-fitness .l-footer {
+    margin-left: 0;
+    border-left: 13em solid #8c003f;
+  }
+  .student-life.athletics-fitness li:hover > .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #8c003f;
+  }
+
+  .student-life.athletics-fitness .shrink li:hover > .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #8c003f;
+  }
+
+  .student-life.athletics-fitness .u-navsite-level-1 > .u-navsite-open {
+    border-right: 1px dashed #8c003f;
+  }
+
+  .student-life.student-services .l-main,
+  .student-life.student-services .l-footer {
+    margin-left: 0;
+    border-left: 208px solid #1f88e6;
+    border-left: 13em solid #1f88e6;
+    /*		border-left: 13em solid #1f88e6;
+    */
+  }
+
+
+  .student-life.student-services .u-masthead:hover a i {
+    border-color: #fff;
+  }
+
+  .student-life.student-services li:hover > .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #a8d6ff;
+  }
+
+  .student-life.student-services .shrink li.u-navsite-open:hover > .u-navsite-level-2 > li > a {
+    color: #000;
+  }
+
+  .student-life.student-services .shrink li.u-navsite-open:hover > .u-navsite-level-2 > li > a:hover,
+  .student-life.student-services .shrink li.u-navsite-open:hover > .u-navsite-level-2 > li.u-navsite-open > a,
+  .student-life.student-services .shrink li.u-navsite-open:hover > .u-navsite-level-2 > li.u-navsite-current > a {
+    color: #fff;
+  }
+
+  .student-life.student-services li.u-navsite-open:hover > .u-navsite-level-2 > li > a {
+    color: #000;
+  }
+
+  .student-life.student-services li.u-navsite-open:hover > a {
+    background: none;
+    color: #000;
+  }
+
+  .student-life.student-services .shrink li:hover > .u-navsite-level-2 {
+    background: #fff;
+    border: 1px solid #a8d6ff;
+  }
+}
+@media all and (min-width: 1024px) {
+  .student-life.frontpage .introsec-container .sec-content {
+    height: 850px;
+  }
+
+  .student-life.frontpage .l-side-image .l-twocol-column.secondcol {
+    margin-top: -11em;
+  }
+
+  /*
+  	.student-life.res-life-new h2 {
+  		background: url("../images/studentlife_dorms.png") 0 0.6em no-repeat;
+  		padding: 0.5em 0 0.4em 1.4em;
+  	}
+  	.student-life.campus-dining h2 {
+  		background: url("../images/studentlife_dining.png") 0 0.6em no-repeat;
+  		padding: 0.5em 0 0.4em 1.4em;
+  	} */
+}
+@media all and (min-width: 1024px) and (max-width: 1104px) {
+  .student-life.frontpage .studentlife-sectionsbox li {
+    float: none;
+    width: 100%;
+  }
+
+  .student-life.frontpage .studentlife-sectionsbox li:nth-child(2n+2) a {
+    border-left: none;
+    padding-left: 4em;
+  }
+
+  .student-life.frontpage .studentlife-sectionsbox li a {
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  /*
+    .student-life.frontpage .studentlife-sectionsbox li:nth-child(1):after,
+    .student-life.frontpage .studentlife-sectionsbox li:nth-child(3):after {
+      border-color: transparent;
+    }
+  */
+  .student-life.frontpage .studentlife-sectionsbox li:nth-child(2n+2) a {
+    background-position: center left;
+  }
+}

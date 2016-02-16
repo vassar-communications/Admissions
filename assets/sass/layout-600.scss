@@ -1,0 +1,155 @@
+/* @media all and (min-width: 500px) and (max-width: 715px) {
+	.l-main {
+			 	@include v-pixel-fallback ('margin-top', 17em);	
+
+	}
+	.introsec-container {
+			 	@include v-pixel-fallback ('padding-top', 3em);	
+}
+} */
+@media all and (min-width: 600px) {
+  /* HTML elements
+   * ========================================================================== */
+  /* Classes
+   * ========================================================================== */
+  .intro,
+  .max-width-700 {
+    max-width: 700px;
+  }
+
+  .l-block {
+    margin-bottom: 1.6px;
+    margin-bottom: 0.1em;
+    /*		margin-bottom: .1em;
+    */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+  }
+
+  .l-block-right {
+    display: block;
+    float: right;
+    clear: right;
+  }
+
+  .l-block-right-25 {
+    display: block;
+    float: right;
+    clear: right;
+    max-width: 25%;
+  }
+
+  .sidebox {
+    position: fixed;
+    background: #888;
+    padding: 2%;
+    width: 10%;
+    top: 0;
+    right: 0;
+  }
+
+  .center .sec-content {
+    width: 50%;
+  }
+
+  .center h3 {
+    text-align: center;
+  }
+
+  .introsec-container {
+    padding-top: 48px;
+    padding-top: 3em;
+    /*		padding-top: 3em;
+    */
+    padding-left: 4%;
+  }
+
+  .l-main {
+    position: relative;
+  }
+
+  .l-side-image {
+    padding-right: 0;
+  }
+
+  .l-narrow-col .sec-content {
+    max-width: 700px;
+  }
+
+  .l-narrow-col-alignleft .sec-content {
+    max-width: 700px;
+    float: left;
+  }
+
+  .l-medium-col .sec-content {
+    max-width: 900px;
+  }
+
+  .l-wide-col .sec-content {
+    max-width: 1024px;
+  }
+
+  .l-extrawide-col .sec-content {
+    max-width: 1200px;
+  }
+
+  .l-narrow-col .sec-content,
+  .l-medium-col .sec-content,
+  .l-wide-col .sec-content,
+  .l-extrawide-col .sec-content {
+    max-width: 1100px;
+  }
+
+  /*	.l-fullwide-col .sec-content {
+  		width: 100%;
+  	} */
+  .subsec-container {
+    /*    padding: 2% 4%; */
+    margin: 0;
+    position: relative;
+  }
+
+  .subsec-container.img-row {
+    padding: 0;
+    margin-top: 32px;
+    margin-top: 2em;
+    /*			margin-top: 2em;
+    */
+  }
+
+  .subsec-container.img-row img {
+    width: 100%;
+  }
+
+  .sec-content {
+    /*		margin: 0 auto 0 4%; */
+    max-width: 1024px;
+    /*		padding: 2% 4%; */
+  }
+
+  .introsec-container {
+    padding: 3% 5% 1em 5%;
+  }
+
+  .subsec-container {
+    padding: 3% 5%;
+  }
+
+  .sec-content {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+  }
+
+  /* Navigation
+  ========================================================================== */
+  /* vcard
+   * ========================================================================== */
+}
