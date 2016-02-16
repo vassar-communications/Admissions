@@ -131,17 +131,21 @@
 }
 
 .u-navsite-id-viewbook a {
-  background: none;
-  background-image: url("http://admissions.vassar.edu/assets/images/viewbookCover.jpg") !important;
-  background-position: 1.75em 1em !important;
-  background-repeat: no-repeat !important;
-  height: 120px;
-  padding: 20px 0 0 120px;
-  font-family: "proxima-nova" !important;
-  font-size: .9em !important;
-  font-weight: bold;
-  line-height: 100%;
+	background: none;
+	background-image: url("http://admissions.vassar.edu/assets/images/viewbookCover.jpg") !important;
+	background-position: 1.75em 1em !important;
+	background-repeat: no-repeat !important;
+	height: 120px;
+	font-family: "proxima-nova" !important;
+	font-size: .9em !important;
+	font-weight: bold;
+	line-height: 100%;
 }
+.u-navsite-level-1 .u-navsite-id-viewbook a,
+.u-navsite-level-1 .u-navsite-id-viewbook.u-navsite-current a {
+	padding: 20px 0 0 120px;
+}
+
 
 .u-navsite-id-viewbook:hover {
   background-image: url("http://admissions.vassar.edu/assets/images/viewbookCover.jpg");
