@@ -4,18 +4,7 @@
 @import "shared/defaults";
 @import "shared/responsive";
 
-@import "modules/search";
-@import "modules/menu-button";
-@import "modules/nav";
-@import "modules/header";
-@import "modules/footer";
-@import "modules/tour";
-@import "modules/image-video";
-@import "modules/image-positionedlinks";
-@import "modules/info-languages";
-@import 'modules/socialgraces';
-@import 'modules/searchresults'; 
-@import 'modules/request-info-button';
+@import "modules/_all";
 
 @import "typography";
 @import "layout";
