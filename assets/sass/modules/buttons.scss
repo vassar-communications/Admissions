@@ -1,0 +1,34 @@
+.button {
+	margin-bottom: 1em;
+	display: inline-block;
+	text-align: center;
+
+	&:link, &:visited {
+		background: #eee;
+		color: #444;
+	}
+	&:link:hover, &:visited:hover {
+		background: #000;
+		color: #fff;
+	}
+}
+.button--large {
+	padding: 1em 1.4em;
+	border-radius: .6em;
+	font-size: 1.4em;
+	line-height: 1.1;
+	font-weight: normal;
+}
+.button--fullrow {
+	display: block;
+}
+.button--red {
+	&:link, &:visited {
+		background: #f03e3e;
+		color: #fff;
+	}
+	&:link:hover, &:visited:hover {
+		background: #212529;
+		color: #fff;
+	}
+}
