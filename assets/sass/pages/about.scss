@@ -279,6 +279,20 @@ body:before {
   /* Opera/IE 8+ */
 }
 
+.about.facts .factsOtherLanguages {
+
+	background: transparent;	
+	$borderStyle: 1px solid rgba(0,0,0,0.3);
+	border: $borderStyle;
+	border-left: $borderStyle;
+	border-right: $borderStyle;
+		
+	h3 {
+		color: #333;
+		text-shadow: none;
+	}
+}
+
 .about.facts .about-facts-outintheworld .more-link {
   color: #db562a;
 }
