@@ -291,8 +291,10 @@ body {
 }
 
 .ac-navanchor-menu:before {
-  font-family: "icomoon";
-  content: "\e000";
+
+/*  font-family: "icomoon";
+  content: "\e000"; */
+  content: "\2630";
   font-size: 1.4em;
   position: absolute;
   top: 1em;
