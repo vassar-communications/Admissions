@@ -3627,3 +3627,8 @@ div.scrollableArea {
 	 position: relative;
 	}
 }
+
+
+@media all and (max-width: 640px) {
+    .scroller-test { display: none; }
+}
