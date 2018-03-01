@@ -1,0 +1,270 @@
+$VC__vassarBurgundy: #861f41;
+$VC__vassarGray: #746661;
+
+$VC__vassarVeryLightGray: #f8f7f6;
+$VC__vassarLightGray: #F0EEEB;
+$VC__vassarTextGray: #BFB9B0;
+$VC__vassarLinkPink: #ce1e46;
+$VC__vassarDullPink: #935966;
+$VC__vassarCharcoal: #5A5A5A;
+
+
+$masthead__bg: #000;
+$masthead__bg-hover: $VC__vassarGray;
+$level1--current-bg: $VC__vassarGray;
+$level1--currentlyOpenAndCurrent-color: #fff;
+
+$level2--current-bg: $VC__vassarGray;
+$level2--currentlyOpen-color: $VC__vassarGray;
+
+
+body:before,
+.u-navsite-level-1 li:hover .u-navsite-level-2 {
+    border-color: $VC__vassarBurgundy !important;
+}
+.u-masthead {
+	border: none !important;
+}
+.u-masthead i {
+    display: none !important;
+}
+.ac-navanchor-menu:before {
+	color: #fff !important;
+}
+.u-navsite {
+    background: #fff;
+    margin-top: 2em;
+}
+.u-masthead,
+.u-masthead i,
+.u-masthead a {
+    background: $masthead__bg !important;
+    color: #fff !important;
+    text-shadow: none !important;
+	border-bottom: none !important;
+}
+.u-masthead:hover,
+.u-masthead:hover a {
+	background: $masthead__bg-hover !important;
+}
+.u-masthead {
+    border-color: $masthead__bg !important;
+}
+.u-masthead a:before {
+	content: none;
+}
+
+/*	Level 1
+	------- */
+
+.u-navsite-level-1 .u-navsite-open {
+    background: #eee !important;
+    border-color: #aaa !important;
+	border-top: 1px solid #eee !important;
+	border-bottom: 1px solid #eee !important;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAARElEQVQoU2P88O71fwEhUUYGHAAkD5LCqQAkCVOEVyGyIpCNWE1EV4TVRGyKMBTiUoSiEJ8iuEJCisAKiVGEopBQoAMAWqgvY18yiVgAAAAASUVORK5CYII=) !important;
+	background-size: 5px !important;
+}
+.u-navsite-level-1 li a {
+	background-color: transparent !important;
+    color: $VC__vassarBurgundy !important;
+    text-shadow: none !important;
+}
+.u-navsite-open li a:hover {
+	
+}
+
+
+
+/*	Level 2
+	------- */
+
+.u-navsite-open .u-navsite-level-2 a {
+	color: $VC__vassarGray !important;
+}
+
+.u-navsite-level-2 li.u-navsite-current > a {
+    background: $level2--current-bg !important;
+    color: #fff !important;
+}
+.m-search-container {
+    display: none !important;
+}
+.u-navsite-level-1>li.u-navsite-current>a,
+.student-life.campus-activities .u-navsite-level-1>li.u-navsite-open .u-navsite-level-2>.u-navsite-current>a {
+	background-color: $level2--current-bg !important;
+}
+.student-life.campus-activities .u-navsite-level-1>li.u-navsite-open .u-navsite-level-2>li:hover>a,
+.student-life.campus-activities .u-navsite-level-2>li:hover>a,
+.u-navsite-level-1>li.u-navsite-open .u-navsite-level-2>li:hover>a,
+.u-navsite li:not(.u-navsite-open):hover > a {
+    background-color: $VC__vassarBurgundy !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+.student-life.campus-activities .u-navsite-level-1>li.u-navsite-open .u-navsite-level-2>.u-navsite-current>a {
+    border-color: transparent !important;	
+}
+.u-navsite li a:hover {
+    background-color: $VC__vassarBurgundy !important;
+    color: #fff !important;
+}
+.u-navsite li:hover > a {
+    background-color: none !important;
+    color: $VC__vassarBurgundy !important;
+}
+.u-navsite-level-1>li.u-navsite-open>a {
+	background: none !important;
+}
+.u-navsite-level-1>li.u-navsite-open.u-navsite-current>a {
+    background-color: $level1--current-bg !important;
+    color: $level1--currentlyOpenAndCurrent-color !important;
+    padding-left: 0.6em;
+}	
+.u-navsite-level-1>li:hover>.u-navsite-level-2 {
+    background: transparent !important;
+}
+
+.u-navsite-level-1>li:not(.u-navsite-open):hover>.u-navsite-level-2 {
+    background: #fff !important;
+}
+h2.u-pagetitle {
+    padding-top: 2em;
+}
+.PageContent {
+    margin-top: 2.375em !important;
+}
+
+
+@media (min-width: 600px) {
+	.l-main {
+		border-left: 13em solid #fff !important;
+		margin-left: 0 !important;
+	}
+	.u-navsite {
+		background: transparent;
+		margin: 0;
+	}
+	h2.u-pagetitle {
+	    padding-top: 1em;
+	}
+	.u-navsite-level-1>li.u-navsite-open.u-navsite-current>a {
+		padding-left: 2rem;
+	}
+	.PageContent {
+	    margin-top: 5.5em !important;
+	}
+}
+
+
+.u-navsite li.u-navsite-open:hover > a:hover {
+	background: $VC__vassarBurgundy !important;
+	color: #fff !important;	
+}
+.u-navsite-level-1 .u-navsite-open > a {
+    background: darken($VC__vassarLightGray, 5%) !important;
+    border-color: #aaa !important;
+    color: #000 !important;
+}
+
+.u-navsite-id-request-info {
+	padding: 0;
+}
+.u-navsite-id-request-info,
+.u-navsite-id-request-info:hover {
+	background: transparent !important;
+}
+li.u-navsite-id-request-info a {
+    background: #eee !important;
+    padding-top: 0.4em !important;
+    padding-bottom: 0.4em !important;
+    margin-top: 1em !important;
+}
+@media (max-width: 600px) {
+	li.u-navsite-id-request-info a {
+	    padding-left: 0.8em !important;
+	}
+}
+.u-navsite .u-navsite-level-1 .u-navsite-id-request-info:hover a {
+	background: #eee !important;
+	color: $VC__vassarBurgundy !important;
+}
+.u-navsite .u-navsite-level-1 .u-navsite-id-request-info:hover a:hover {
+	background: $VC__vassarBurgundy !important;
+	color: #fff !important;
+}
+.u-navsite li.u-navsite-current:hover > a {
+	color: #fff !important;
+}
+
+.u-navsite-level-2 .u-navsite-level-3>li>a,
+.u-navsite-level-2 .u-navsite-level-3>li>a:hover {
+	border-bottom: none !important;
+}
+.student-life .u-navsite-level-1>.u-navsite-open {
+	border-right: none !important;
+}
+.aftervassar .u-navsite-level-1>.u-navsite-open a {
+    padding-top: 0.3em !important;
+}
+
+.ac-navanchor-menu {
+	display: none !important;
+}
+
+
+.u-navsite li.u-navsite-open:hover > a {
+	color: #000 !important;
+}
+.u-navsite li.u-navsite-open.u-navsite-current:hover > a {
+	color: #fff !important;
+}
+ul.u-navsite-level-1 ul.u-navsite-level-2 > li.u-navsite-open:hover > a {
+	color: #000 !important;
+	background: darken($VC__vassarLightGray, 5%) !important;
+}
+ul.u-navsite-level-1 ul.u-navsite-level-2 > li.u-navsite-open.u-navsite-current:hover > a {
+	background: $level2--currentlyOpen-color !important;
+	color: #fff !important;
+}
+li:not(.u-navsite-open) .u-navsite-level-2 li:hover > a {
+	border-bottom: 1px solid #eee !important;
+}
+.u-navsite-level-2 > .u-navsite-open {
+	border-bottom: none !important;
+}
+.u-navsite-level-3 {
+    border-bottom-color: #ccc !important;
+}
+li.u-navsite-id-viewbook {
+    background: #fff !important;
+}
+
+
+:fullscreen a { transition: transform 1s; }
+
+.l-footer {
+    border-color: #fff !important;
+}
+
+/*	Ray fix to handle z-index problems: content overlaps shadow on nav */
+
+.l-narrow-col,
+.l-extrawide-col,
+.l-wide-col {
+    left: 1px;
+}
+body:before {
+	background: none;
+}
+.image-bar {
+    margin-left: 1px !important;
+}
+
+@media (min-width: 600px) {
+	.student-life.campus-activities .l-footer {
+	    margin-left: 0;
+	    border-left: 13em solid rgba(0,0,0,0.3);
+	    border-color: #000 !important;
+	}
+}

@@ -3632,3 +3632,22 @@ div.scrollableArea {
 @media all and (max-width: 640px) {
     .scroller-test { display: none; }
 }
+
+
+/*	Fixes for universal nav
+	----------------------- */
+
+@media screen and (min-width: 600px) {
+	.PageContent {
+	    margin-top: 0;
+	}
+}
+@media (min-width: 1150px) {
+	.l-header {
+	    margin-top: 0;
+	    margin-bottom: 5.3em;
+	}
+}
+
+
+
