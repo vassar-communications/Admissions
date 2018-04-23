@@ -6,14 +6,6 @@
  */
 /* HTML elements
  * ========================================================================== */
-a {
-  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
-  color: #0095C2;
-}
-
-a:hover {
-  color: #E0491B;
-}
 
 h3 i {
   color: #888;
@@ -105,7 +97,7 @@ p {
 }
 
 .index-list li {
-  border-bottom: 1px dashed #cccc88;
+  border-bottom: 1px dashed #BFB9B0;
 }
 
 .index-list li:before {
@@ -126,8 +118,8 @@ p {
 }
 
 .info-chunk {
-  background: #ffa;
-  border-top: 10px solid #eeee99;
+  background: #F0EEEB;
+  border-top: 10px solid #BFB9B0;
   -moz-box-shadow: 0 2px 4px rgba(50, 0, 0, 0.2);
   -webkit-box-shadow: 0 2px 4px rgba(50, 0, 0, 0.2);
   box-shadow: 0 2px 4px rgba(50, 0, 0, 0.2);
@@ -135,14 +127,14 @@ p {
   margin-bottom: 1em;
 }
 
+/*
 .info-chunk a {
   color: #5d9189;
 }
-
 .info-chunk a:hover {
   color: #ff3300;
 }
-
+*/
 .subsec-container .sec-content .l-twocol-column .info-chunk h3 a {
   color: #f30;
   font-weight: 700;
@@ -312,9 +304,17 @@ p {
   border-top: 3px double rgba(0, 0, 0, 0.1);
 }
 
-/* ------------- PAGES ----------------- */
+
+/* Content styling */
+tr:nth-child(2n+1) {
+  background: #EEF8DF;
+  background: #eee;
+}
+
+/* ------------- PAGES ----------------- *
 /* FINANCIAL AID --------------------------- */
 /* These are general-purpose styles that should appear on all pages in the Financial Aid section */
+/*
 .financial-aid a {
   color: #090;
 }
@@ -342,7 +342,6 @@ p {
   color: #BEC4A3;
 }
 
-/* Masthead */
 
 .financial-aid .u-masthead {
 	background: #EEF2DF;
@@ -381,7 +380,6 @@ p {
   border-color: #DEE3C8;
 }
 
-/* Navigation */
 .financial-aid .u-navsite-level-1 li a {
   color: #888f68;
 }
@@ -403,11 +401,6 @@ p {
   border-bottom: 1px solid #bdc396;
 }
 
-/* Content styling */
-tr:nth-child(2n+1) {
-  background: #EEF8DF;
-  background: #eee;
-}
 
 .financial-aid h2 {
   color: #696;
@@ -450,12 +443,10 @@ tr:nth-child(2n+1) {
   color: black;
 }
 
-/* Financial Aid > Understanding Your Aid Award */
 .financial-aid.understanding-your-aid-award .u-navsite-level-3 {
   left: -65px;
 }
 
-/* Financial Aid > Forms & Resources */
 .fafsa {
   background: #1e78ad;
   border-color: #3d9ed7;
@@ -483,7 +474,6 @@ tr:nth-child(2n+1) {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/* Financial Aid > Contact */
 .financial-aid.contact-financial-aid .introsec-container p {
   margin: 0;
   padding: 0.2em 0;
@@ -518,9 +508,6 @@ tr:nth-child(2n+1) {
   border: none;
 }
 
-/* After Vassar ----------------------- */
-
-/* Masthead */
 .aftervassar .u-masthead {
 	background: #addb67;
 }
@@ -560,9 +547,6 @@ tr:nth-child(2n+1) {
   border-color: #addb67;
 }
 
-
-
-/* Navigation */
 .aftervassar .u-navsite-level-1 > li > a {
   color: #63bcd6;
 }
@@ -610,7 +594,6 @@ tr:nth-child(2n+1) {
   border: 1px solid #d63200;
 }
 
-/* Links */
 .aftervassar .l-content a {
   color: #D63200;
 }
@@ -623,7 +606,6 @@ tr:nth-child(2n+1) {
   border-color: #FFBF00;
 }
 
-/* Intro */
 .aftervassar .aftervassar-careers {
   background: #FFE9A8;
 }
@@ -632,7 +614,7 @@ tr:nth-child(2n+1) {
   color: #FFAE00;
   color: #D63200;
 }
-
+*/
 /* Slideshow rows */
 .subsec-container.has-gallery {
   background: #000;
@@ -797,18 +779,25 @@ tr:nth-child(2n+1) {
   .u-navsite-level-1 li:hover .u-navsite-level-2 {
     background: #fff;
   }
-
-  .financial-aid .u-navsite-level-1 li:hover .u-navsite-level-2 > li > a:hover {
-    background: #a7ad7e;
-  }
-
   .u-navsite-level-1 li.u-navsite-open:hover .u-navsite-level-2 {
     background: none;
   }
 
+/*
+  .financial-aid .u-navsite-level-1 li:hover .u-navsite-level-2 > li > a:hover {
+    background: #a7ad7e;
+  }
   .financial-aid .u-navsite-level-1 > li.u-navsite-open:hover > a {
     color: #888f68;
   }
+  .financial-aid .u-navsite-level-3 > li.u-navsite-current > a,
+  .financial-aid .u-navsite-level-3 > li > a:hover {
+    background: #eee;
+    color: #000;
+  }
+
+
+*/
 
   .shrink .u-navsite-level-1 li.u-navsite-open:hover .u-navsite-level-2 {
     background: #fff;
@@ -819,11 +808,6 @@ tr:nth-child(2n+1) {
     border: 1px solid #dee3c8;
   }
 
-  .financial-aid .u-navsite-level-3 > li.u-navsite-current > a,
-  .financial-aid .u-navsite-level-3 > li > a:hover {
-    background: #eee;
-    color: #000;
-  }
 
   search:hover .m-search-field,
   .m-search-field {
@@ -855,7 +839,7 @@ tr:nth-child(2n+1) {
     border: none;
   }
 
-  /* Search */
+/*
   .financial-aid .m-search-container {
     background: #D8DEC3;
     border: 3px double #eef2df;
@@ -913,11 +897,13 @@ tr:nth-child(2n+1) {
   .financial-aid :-ms-input-placeholder {
     color: #a7ad7e !important;
   }
-
+*/
   .m-search-container {
     background: transparent;
     border: none;
   }
+
+/*
   .financial-aid .u-navsite-level-1 li:hover,
   .financial-aid .u-navsite-level-1 li.u-navsite-open {
     background: #EEF2DF;
@@ -937,7 +923,6 @@ tr:nth-child(2n+1) {
     color: #3f6617;
   }
 
-  /* Search */
   .aftervassar .m-search-container {
     background: #63BCD6;
   }
@@ -949,7 +934,7 @@ tr:nth-child(2n+1) {
 
   .aftervassar .m-search-field {
     color: white !important;
-  }
+  } */
 
   /* Search */
   .standard .m-search-container {
@@ -973,11 +958,14 @@ tr:nth-child(2n+1) {
     border-left: 13em solid #e4f3f5;
   }
 }
+
+/*
 @media all and (min-width: 1024px) {
   .financial-aid.contact-financial-aid .introsec-container p:last-child {
     border: none;
   }
 }
+*/
 /*	REQUEST INFO
 	------------ */
 .u-navsite-id-request-info {
@@ -987,6 +975,7 @@ tr:nth-child(2n+1) {
   margin-top: 1em !important;
 }
 
+/*
 .contact.ask .u-navsite-id-request-info {
   background: rgba(0, 0, 0, 0.1);
 }
@@ -1035,7 +1024,7 @@ tr:nth-child(2n+1) {
 .about.news.stories .u-navsite-id-request-info {
   background: #DDE8ED;
 }
-
+*/
 .u-navsite-id-request-info a {
   font-family: "proxima-nova" !important;
   font-weight: bold !important;
@@ -1084,3 +1073,30 @@ a.checkStatusBtn:hover {
 .u-navsite .u-navsite-level-1 .u-navsite-id-request-info:hover a {
 	background: none !important;
 }
+
+.button.button--red {
+	border: none !important;
+	
+	&:link, &:visited {
+		background: #882344;
+	}
+	&:hover, &:visited:hover {
+		background: #000;
+	}
+}
+.l-main, .l-footer {
+	a {
+	  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+	  border: none !important;
+	  text-decoration: underline;
+	  color: #ce1e46;
+	}
+	a:visited {
+		color: #a79e91;
+	}
+	a:hover, a:visited:hover {
+	  color: #000;
+	}
+}
+
+

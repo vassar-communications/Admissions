@@ -163,9 +163,6 @@ you can use the generic selector below, but it's slower:
  */
 /* HTML elements
  * ========================================================================== */
-a {
-  text-decoration: none;
-}
 
 html body .l-page .l-header h1 {
   font-size: 22.4px;
@@ -475,7 +472,6 @@ p.caption strong {
   */
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: none;
   font-style: normal;
   color: #888;
   margin-left: 3.2px;

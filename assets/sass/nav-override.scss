@@ -18,9 +18,11 @@ $level2--current-bg: $VC__vassarGray;
 $level2--currentlyOpen-color: $VC__vassarGray;
 
 
-body:before,
 .u-navsite-level-1 li:hover .u-navsite-level-2 {
     border-color: $VC__vassarBurgundy !important;
+}
+body:before {
+    border-left: 1px solid $VC__vassarBurgundy !important;
 }
 .u-masthead {
 	border: none !important;
@@ -104,6 +106,14 @@ body:before,
 }
 .student-life.campus-activities .u-navsite-level-1>li.u-navsite-open .u-navsite-level-2>.u-navsite-current>a {
     border-color: transparent !important;	
+}
+.student-life.campus-activities {
+	.l-footer {
+		@media (min-width: 600px) {
+			border-left: 13em solid #fff !important;
+			margin-top: 0 !important;
+		}
+	}
 }
 .u-navsite li a:hover {
     background-color: $VC__vassarBurgundy !important;
@@ -262,9 +272,49 @@ body:before {
 }
 
 @media (min-width: 600px) {
-	.student-life.campus-activities .l-footer {
-	    margin-left: 0;
+	.l-footer {
+	    margin-left: 0 !important;
 	    border-left: 13em solid rgba(0,0,0,0.3);
-	    border-color: #000 !important;
+	    border-color: #fff !important;
 	}
 }
+
+@media (min-width: 600px) {
+	.introsec-container,
+	.subsec-container {
+		margin-left: 1px !important;
+	}
+}
+body {
+    padding-top: 3.6em;
+
+	@media (min-width: 600px) {
+		padding-top: 7em;
+	}
+}
+
+
+.g-NavSite__sec--page-menu {
+	.g-NavSite__item {
+		color: #746661 !important;
+	}	
+}
+
+body .u-navsite-level-1>li.u-navsite-id-viewbook a,
+body .u-navsite-level-1>li.u-navsite-id-viewbook.u-navsite-current a,
+body .u-navsite-level-1>li.u-navsite-id-viewbook.u-navsite-current a:hover {
+    background-position: 1.75em 1em !important;
+    background-repeat: no-repeat !important;
+    height: 120px;
+    font-family: "proxima-nova" !important;
+    font-size: .9em !important;
+    font-weight: bold;
+    line-height: 100%;	
+    background-image: url(//admissions.vassar.edu/assets/images/viewbookCover.jpg) !important;
+    padding: 20px 0 0 120px !important;
+}
+
+.u-navsite-level-3 {
+	background: #fff;
+}
+
