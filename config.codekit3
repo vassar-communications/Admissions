@@ -92,6 +92,34 @@
 		"oAP": "\/assets\/sass\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/contact.scssc",
 		"oF": 0
 		},
+	"\/assets\/sass\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/facts-new.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/sass\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/facts-new.scssc",
+		"oF": 0
+		},
+	"\/assets\/sass\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/new-about.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/sass\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/new-about.scssc",
+		"oF": 0
+		},
+	"\/assets\/sass\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/new-facts.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/sass\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/new-facts.scssc",
+		"oF": 0
+		},
+	"\/assets\/sass\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/new-studentlife.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/sass\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/new-studentlife.scssc",
+		"oF": 0
+		},
 	"\/assets\/sass\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/news.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -230,6 +258,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/sass\/.sass-cache\/33b8950aac52953dbe234c48a14327ffbd165af3\/socialgraces.scssc",
+		"oF": 0
+		},
+	"\/assets\/sass\/.sass-cache\/33b8950aac52953dbe234c48a14327ffbd165af3\/table.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/sass\/.sass-cache\/33b8950aac52953dbe234c48a14327ffbd165af3\/table.scssc",
 		"oF": 0
 		},
 	"\/assets\/sass\/.sass-cache\/33b8950aac52953dbe234c48a14327ffbd165af3\/tour.scssc": {
@@ -391,6 +426,26 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/assets\/sass\/css\/about.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/sass\/css\/about-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/sass\/css\/new-about.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/sass\/css\/new-about-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/assets\/sass\/group-hp.scss": {
 		"aP": 0,
@@ -743,6 +798,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/sass\/modules\/table.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/css\/table.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/sass\/modules\/tour.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -769,6 +837,20 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/sass\/pages\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/about.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/sass\/pages\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/about.scssc",
+		"oF": 0
+		},
+	"\/assets\/sass\/pages\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/new-about.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/sass\/pages\/.sass-cache\/2e95d420aebdfd828b0a82eedd959f70358db3ee\/new-about.scssc",
+		"oF": 0
+		},
 	"\/assets\/sass\/pages\/about.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -776,7 +858,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/sass\/css\/about.css",
 		"oF": 0,
 		"oS": 3,
@@ -789,7 +871,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/sass\/css\/academics.css",
 		"oF": 0,
 		"oS": 3,
@@ -802,7 +884,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/sass\/css\/apply.css",
 		"oF": 0,
 		"oS": 3,
@@ -815,8 +897,47 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/sass\/css\/contact.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/pages\/new-about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/css\/new-about.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/pages\/new-facts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/css\/new-facts.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/pages\/new-studentlife.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/css\/new-studentlife.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -828,7 +949,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/sass\/css\/news.css",
 		"oF": 0,
 		"oS": 3,
@@ -841,7 +962,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/sass\/css\/studentlife.css",
 		"oF": 0,
 		"oS": 3,
@@ -854,7 +975,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/sass\/css\/viewbook.css",
 		"oF": 0,
 		"oS": 3,
@@ -867,7 +988,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/sass\/css\/visit.css",
 		"oF": 0,
 		"oS": 3,

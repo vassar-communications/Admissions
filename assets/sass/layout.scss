@@ -387,7 +387,21 @@ body {
 	padding-bottom: 10em;
 }
 
-
+@media all and (min-width: 900px) {
+	.grid-row {
+		display: flex;
+	}
+	.col-half {
+		width: 50%;
+		
+		&:first-child {
+			padding-right: 0.4em;
+		}
+		&:last-child {
+			padding-left: 0.4em;
+		}
+	}
+}
 
 
 

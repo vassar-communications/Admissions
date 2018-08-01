@@ -1,0 +1,8 @@
+.apply.frontpage {
+	.button--large.button--red {
+		&:link, &:visited, &:hover, &:hover:visited {
+			color: #fff !important;
+			text-decoration: none !important;
+		}
+	}
+}

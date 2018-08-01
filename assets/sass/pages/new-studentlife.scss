@@ -1,7 +1,9 @@
 .student-life.frontpage {
 	.l-side-image {
 		.l-twocol-column.secondcol {
-			margin-top: -11em;
+			@media all and (min-width: 600px) {
+				margin-top: -11em;
+			}
 		}
 	}
 	.image-positionedlinks ul {
