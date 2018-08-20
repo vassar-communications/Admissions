@@ -1,0 +1,57 @@
+.news-lead-image {
+    margin-right: 2.3em;
+}
+.news-title {
+    margin-top: 0;
+    border-bottom: 0;
+}
+.news-item a {
+    border: none !important;
+}
+.news-contact h4,
+.Share__heading {
+    margin-top: 0 !important;
+}
+.Share__heading {
+    margin-bottom: 1em;
+}
+.l-news .sec-content {
+    overflow: hidden;
+}
+.news-presscontact-phone .icon-phone,
+.news-presscontact-email .icon-envelope {
+    display: none;
+}
+.news-contact h5 {
+    font-weight: bold;
+    margin-top: 1em;
+}
+.news-contact p {
+    margin-bottom: 0.3em;
+}
+.Share a {
+    width: 2.4em;
+}
+.news-archive-link {
+    background: #eee;
+}
+
+@media (min-width: 600px) {
+	.news .firstcol {
+	    width: 65%;
+	}
+	.news .secondcol {
+	    width: 34%;
+	}
+}
+
+
+
+.news-btn-more {
+	&:before, &:after {
+		display: none;
+	}
+	&:hover {
+		background: #aaa;
+	}
+}
