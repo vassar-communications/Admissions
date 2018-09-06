@@ -1,0 +1,25 @@
+.event-list {
+    margin-top: 2em;
+    max-width: 40em;
+
+	h3 {
+	    font-size: 1.6em;
+	    margin-top: 3em;
+	    margin-bottom: 0.8em;
+	    
+	    &:first-of-type {
+		    margin-top: 0;
+	    }
+	}
+	h4 {
+	    border: none;
+	    border-top: 1px solid #ddd;
+	    font-size: 1.2em;
+	    padding-top: 2em;
+	    margin-top: 0;
+	}
+	h3 + h4 {
+	    border: none;
+	    padding-top: 0;
+	}
+}

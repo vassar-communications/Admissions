@@ -1,0 +1,20 @@
+.pageindex-multicol {
+	@media all and (min-width: 600px) {
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	li {
+		padding: 0 !important;
+
+		@media all and (min-width: 600px) {
+			width: 50%;
+		}
+		@media all and (min-width: 1024px) {
+			width: 33%;
+		}
+		
+		&:before {
+			display: none;
+		}
+	}
+}
